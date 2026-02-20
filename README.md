@@ -12,25 +12,25 @@ The objective is to model operational maturity practices that reduce support fri
 
 The lab simulates a Kafka-based distributed ingestion system with:
 
-- Synthetic event producers  
-- Controlled broker failure testing  
-- Consumer lag impact validation  
-- Automated evidence collection  
-- Structured runbook-driven remediation  
-- Post-incident documentation workflows  
-- Infrastructure-as-Code extension via Terraform  
+- Synthetic event producers
+- Controlled broker failure testing
+- Consumer lag impact validation
+- Automated evidence collection
+- Structured runbook-driven remediation
+- Post-incident documentation workflows
+- Infrastructure-as-Code extension via Terraform
 
 ---
 
 ## Reliability Testing Workflow
 
-1. Start the platform with Docker Compose  
-2. Generate controlled event load  
-3. Simulate Kafka broker failure  
-4. Capture structured incident evidence  
-5. Quantify consumer lag impact  
-6. Generate automated incident summary  
-7. Document findings via runbook + postmortem templates  
+1. Start the platform with Docker Compose
+2. Generate controlled event load
+3. Simulate Kafka broker failure
+4. Capture structured incident evidence
+5. Quantify consumer lag impact
+6. Generate automated incident summary
+7. Document findings via runbook + postmortem templates
 
 ---
 
