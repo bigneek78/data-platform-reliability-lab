@@ -36,6 +36,14 @@ The lab simulates a Kafka-based distributed ingestion system with:
 
 ## Repository Structure
 
+```
+data-platform-reliability-lab/
+  scripts/        → Failure simulation & automation
+  runbooks/       → Standardized incident response procedures
+  docs/           → Incident + postmortem templates
+  terraform/      → Infrastructure-as-Code skeleton
+```
+
 ---
 
 ## Why This Matters
