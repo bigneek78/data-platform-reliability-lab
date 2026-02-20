@@ -36,3 +36,12 @@ The lab simulates a Kafka-based distributed ingestion system with:
 
 ## Repository Structure
 
+---
+
+## Author
+
+**Neco Thomas**  
+Cloud & Reliability Engineer  
+Focused on distributed systems, automation, and support scalability.
+
+GitHub: https://github.com/YOURUSERNAME
