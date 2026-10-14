@@ -1,0 +1,25 @@
+{
+  "certificates": [
+    {
+      "id": "lab-cert-a",
+      "rotation_owner": "identity",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-10-13T11:00:00Z"
+    },
+    {
+      "id": "lab-cert-b",
+      "rotation_owner": null,
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2026-10-30T12:00:00Z"
+    },
+    {
+      "id": "lab-cert-c",
+      "rotation_owner": "platform",
+      "valid_from": "2026-09-01T00:00:00Z",
+      "valid_to": "2027-01-01T00:00:00Z"
+    }
+  ],
+  "max_age_minutes": 60,
+  "observed_at": "2026-10-13T11:59:00Z",
+  "warning_days": 30
+}

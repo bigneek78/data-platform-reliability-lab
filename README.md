@@ -1,4 +1,9 @@
 # Data Platform Reliability & Support Engineering Lab
+## Project Phoenix — 15 engineering work samples
+
+[Explore the complete collection](phoenix-engineering-labs/) for executable examples in support operations, Windows and Active Directory, RHEL maintenance, security evidence, Terraform review, Kubernetes reliability, recovery verification, and incident communication.
+
+The collection includes synthetic fixtures, recorded outputs, **152 passing local behavioral and CLI tests**, and a Linux/Windows GitHub Actions validation workflow. These AI-assisted demonstration projects make engineering assumptions, evidence gaps, ownership, and recovery decisions available for technical review. See the [validation record](phoenix-engineering-labs/VALIDATION.md) for the executed scope and integration limits.
 
 ## Overview
 

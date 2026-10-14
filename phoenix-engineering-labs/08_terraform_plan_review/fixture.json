@@ -1,0 +1,63 @@
+{
+  "format_version": "1.2",
+  "resource_changes": [
+    {
+      "address": "aws_security_group.lab_admin",
+      "change": {
+        "actions": [
+          "update"
+        ],
+        "after": {
+          "ingress": [
+            {
+              "cidr_blocks": [
+                "0.0.0.0/0"
+              ],
+              "from_port": 22,
+              "ipv6_cidr_blocks": [],
+              "protocol": "tcp",
+              "to_port": 22
+            }
+          ]
+        },
+        "after_unknown": {}
+      },
+      "type": "aws_security_group"
+    },
+    {
+      "address": "aws_s3_bucket_acl.lab",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "acl": "private"
+        },
+        "after_unknown": {}
+      },
+      "type": "aws_s3_bucket_acl"
+    },
+    {
+      "address": "aws_iam_policy.lab",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "policy": {
+            "Statement": [
+              {
+                "Action": "*",
+                "Effect": "Allow",
+                "Resource": "*"
+              }
+            ],
+            "Version": "2012-10-17"
+          }
+        },
+        "after_unknown": {}
+      },
+      "type": "aws_iam_policy"
+    }
+  ]
+}

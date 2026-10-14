@@ -1,0 +1,22 @@
+{
+  "examined_resources": 3,
+  "excluded_resource_types": [],
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "public_admin_ingress",
+      "item": "aws_security_group.lab_admin",
+      "message": "Review unrestricted SSH/RDP or all-protocol ingress."
+    },
+    {
+      "code": "wildcard_allow_review",
+      "item": "aws_iam_policy.lab",
+      "message": "Review wildcard Allow and all constraints; full policy authorization is not modeled."
+    }
+  ],
+  "missing_evidence": [],
+  "policy_scope": "Three resource types and specific checks only; no Terraform apply or comprehensive cloud-security assessment.",
+  "sample": 8,
+  "status": "issues",
+  "title": "Terraform Plan Security Review"
+}

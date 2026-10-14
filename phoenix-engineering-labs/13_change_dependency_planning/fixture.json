@@ -1,0 +1,52 @@
+{
+  "approved": true,
+  "tasks": [
+    {
+      "depends_on": [],
+      "id": "capture",
+      "owner": "operations",
+      "risk": "low",
+      "rollback": "No system change; retain the evidence",
+      "validation": [
+        "Record current state"
+      ]
+    },
+    {
+      "depends_on": [
+        "capture"
+      ],
+      "id": "update",
+      "owner": "platform",
+      "risk": "medium",
+      "rollback": "Restore reviewed prior configuration",
+      "validation": [
+        "Verify service startup"
+      ]
+    },
+    {
+      "depends_on": [
+        "capture"
+      ],
+      "id": "identity",
+      "owner": "identity",
+      "risk": "medium",
+      "rollback": "Restore reviewed access configuration",
+      "validation": [
+        "Verify affected identity and application action"
+      ]
+    },
+    {
+      "depends_on": [
+        "update",
+        "identity"
+      ],
+      "id": "workflow",
+      "owner": "support",
+      "risk": "high",
+      "rollback": "Escalate a failed acceptance check to the change owner",
+      "validation": [
+        "Verify the complete customer path"
+      ]
+    }
+  ]
+}

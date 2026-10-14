@@ -1,0 +1,6 @@
+{
+  "files": {
+    "etc/demo-service.ini": "listen_port=8443\nfeature=lab\n",
+    "runbooks/recovery.txt": "Restore the supplied files, compare hashes, and validate the demo workflow.\n"
+  }
+}

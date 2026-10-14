@@ -1,0 +1,35 @@
+{
+  "certificate": {
+    "chain_valid": true,
+    "mapping_valid": null,
+    "revocation_clear": true,
+    "valid_from": "2026-09-01T00:00:00Z",
+    "valid_to": "2026-10-13T11:00:00Z"
+  },
+  "events": [
+    {
+      "at": "2026-10-13T11:40:00Z",
+      "id": "a",
+      "outcome": "failure"
+    },
+    {
+      "at": "2026-10-13T11:45:00Z",
+      "id": "b",
+      "outcome": "failure"
+    },
+    {
+      "at": "2026-10-13T11:50:00Z",
+      "id": "c",
+      "outcome": "failure"
+    },
+    {
+      "at": "2026-10-13T11:55:00Z",
+      "id": "d",
+      "outcome": "success"
+    }
+  ],
+  "failure_threshold": 3,
+  "max_age_minutes": 60,
+  "observed_at": "2026-10-13T11:59:00Z",
+  "window_minutes": 30
+}

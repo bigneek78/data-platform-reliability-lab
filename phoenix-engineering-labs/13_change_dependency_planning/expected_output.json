@@ -1,0 +1,28 @@
+{
+  "execution_waves": [
+    [
+      "capture"
+    ],
+    [
+      "identity",
+      "update"
+    ],
+    [
+      "workflow"
+    ]
+  ],
+  "exit_code": 0,
+  "findings": [],
+  "graph_valid": true,
+  "missing_evidence": [],
+  "policy_scope": "Dependency waves do not grant approval or guarantee safe parallel execution; responsible owners review sequencing.",
+  "rollback_order": [
+    "workflow",
+    "update",
+    "identity",
+    "capture"
+  ],
+  "sample": 13,
+  "status": "clear",
+  "title": "Change Dependency and Rollback Planning"
+}

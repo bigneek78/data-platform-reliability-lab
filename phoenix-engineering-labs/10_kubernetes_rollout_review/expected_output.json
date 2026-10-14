@@ -1,0 +1,44 @@
+{
+  "counters": {
+    "availableReplicas": 1,
+    "readyReplicas": 1,
+    "replicas": 2,
+    "updatedReplicas": 1
+  },
+  "desired_replicas": 2,
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "rollout_not_complete",
+      "item": "lab-api",
+      "message": "The supplied replica counters do not show a completed rollout."
+    },
+    {
+      "code": "progress_deadline",
+      "item": "lab-api",
+      "message": "The controller reported ProgressDeadlineExceeded."
+    },
+    {
+      "code": "container_not_ready",
+      "item": "lab-api-a",
+      "message": "Container api is not ready."
+    },
+    {
+      "code": "container_waiting",
+      "item": "lab-api-a",
+      "message": "Container api reports CrashLoopBackOff."
+    }
+  ],
+  "missing_evidence": [
+    {
+      "code": "controller_not_current",
+      "item": "lab-api",
+      "message": "The controller has not reported the current generation."
+    }
+  ],
+  "pods": 2,
+  "policy_scope": "Supplied rollout objects; labels/ownership and actual user traffic must be verified separately.",
+  "sample": 10,
+  "status": "incomplete",
+  "title": "Kubernetes Rollout Evidence"
+}

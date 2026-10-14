@@ -1,0 +1,16 @@
+{
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "incident_open",
+      "item": "INC-LAB-001",
+      "message": "Maintain ownership and the next action while the incident remains open."
+    }
+  ],
+  "markdown": "# Incident INC-LAB-001\n\nState: open\nImpact: Synthetic API authentication failures\nOwner: support\nNext action: Collect the application deny evidence with the identity owner\n\n## Evidence timeline\n\n- 2026-10-13T11:10:00+00:00 | finding | A demo user at [email redacted] reported a deny from [address redacted]\n- 2026-10-13T11:15:00+00:00 | hypothesis (unconfirmed) | Certificate mapping may differ from the working identity\n- 2026-10-13T11:20:00+00:00 | action | Preserved the failed request timestamp and application event\n- 2026-10-13T11:30:00+00:00 | validation | The affected user still cannot complete the authorized demo action\n",
+  "missing_evidence": [],
+  "policy_scope": "Supplied evidence only. Pattern redaction is limited; review any real report before sharing.",
+  "sample": 14,
+  "status": "issues",
+  "title": "Incident Timeline and Handoff"
+}

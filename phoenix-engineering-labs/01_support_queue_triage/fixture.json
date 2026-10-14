@@ -1,0 +1,27 @@
+{
+  "max_age_minutes": 60,
+  "observed_at": "2026-10-13T11:59:00Z",
+  "sla_hours": {
+    "critical": 4,
+    "normal": 24
+  },
+  "tickets": [
+    {
+      "id": "T-001",
+      "opened_at": "2026-10-13T07:00:00Z",
+      "owner": null,
+      "proposed_queue": "identity",
+      "queue": "general",
+      "severity": "critical",
+      "state": "open"
+    },
+    {
+      "id": "T-002",
+      "opened_at": "2026-10-13T10:00:00Z",
+      "owner": "support",
+      "resolution_verified": false,
+      "severity": "normal",
+      "state": "closed"
+    }
+  ]
+}

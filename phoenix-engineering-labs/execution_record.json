@@ -1,0 +1,14 @@
+{
+  "executed_at_utc": "2026-10-13T22:29:08.996335+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "behavioral_tests": 152,
+  "failed_tests": 0,
+  "fixture_commands_verified": 15,
+  "fixture_evaluation_time": "2026-10-13T12:00:00Z",
+  "native_windows_collection_executed": false,
+  "ansible_runtime_executed": false,
+  "terraform_runtime_executed": false,
+  "cursor_ide_executed": false,
+  "github_ci_executed": false
+}

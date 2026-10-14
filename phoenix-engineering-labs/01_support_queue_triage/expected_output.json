@@ -1,0 +1,31 @@
+{
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "unassigned",
+      "item": "T-001",
+      "message": "Assign an accountable case owner."
+    },
+    {
+      "code": "sla_threshold",
+      "item": "T-001",
+      "message": "The sample response-age threshold has been reached."
+    },
+    {
+      "code": "routing_review",
+      "item": "T-001",
+      "message": "Review the proposed routing with the receiving team."
+    },
+    {
+      "code": "unverified_closure",
+      "item": "T-002",
+      "message": "Obtain workflow validation before accepting closure."
+    }
+  ],
+  "missing_evidence": [],
+  "policy_scope": "Synthetic response-age thresholds; no ticket integration.",
+  "records": 2,
+  "sample": 1,
+  "status": "issues",
+  "title": "Support Queue Triage"
+}

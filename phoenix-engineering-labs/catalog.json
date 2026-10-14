@@ -1,0 +1,137 @@
+[
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.json",
+    "folder": "01_support_queue_triage",
+    "format": "json",
+    "id": 1,
+    "role_relevance": "Support operations; incident ownership; internal tooling",
+    "title": "Support Queue Triage"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "02_identity_authentication_triage",
+    "format": "json",
+    "id": 2,
+    "role_relevance": "Identity/PKI; security-aware troubleshooting",
+    "title": "Identity and Authentication Triage"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "03_windows_service_evidence",
+    "format": "json",
+    "id": 3,
+    "role_relevance": "Windows operations; PowerShell error reporting",
+    "title": "Windows Service Evidence Review"
+  },
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.csv",
+    "folder": "04_ad_replication_review",
+    "format": "csv",
+    "id": 4,
+    "role_relevance": "Active Directory; replication; technical handoffs",
+    "title": "Active Directory Replication Review"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "05_rhel_patch_readiness",
+    "format": "json",
+    "id": 5,
+    "role_relevance": "Linux/RHEL; Ansible; controlled maintenance",
+    "title": "RHEL Patch Readiness"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.xml",
+    "folder": "06_stig_xccdf_evidence",
+    "format": "xml",
+    "id": 6,
+    "role_relevance": "STIG evidence; security validation; exceptions",
+    "title": "STIG / XCCDF Evidence Review"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "07_vulnerability_prioritization",
+    "format": "json",
+    "id": 7,
+    "role_relevance": "Vulnerability remediation; risk communication",
+    "title": "Vulnerability Prioritization"
+  },
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.json",
+    "folder": "08_terraform_plan_review",
+    "format": "json",
+    "id": 8,
+    "role_relevance": "Terraform; cloud security; reviewable changes",
+    "title": "Terraform Plan Security Review"
+  },
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.json",
+    "folder": "09_cloud_inventory_drift",
+    "format": "json",
+    "id": 9,
+    "role_relevance": "Cloud inventory; CMDB discipline; configuration drift",
+    "title": "Cloud Inventory Drift Review"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "10_kubernetes_rollout_review",
+    "format": "json",
+    "id": 10,
+    "role_relevance": "Kubernetes; troubleshooting; rollout validation",
+    "title": "Kubernetes Rollout Evidence"
+  },
+  {
+    "expected_fixture_exit": 2,
+    "fixture": "fixture.json",
+    "folder": "11_certificate_rotation_planning",
+    "format": "json",
+    "id": 11,
+    "role_relevance": "PKI inventory; maintenance planning; ownership",
+    "title": "Certificate Rotation Planning"
+  },
+  {
+    "expected_fixture_exit": 0,
+    "fixture": "fixture.json",
+    "folder": "12_backup_restore_verification",
+    "format": "json",
+    "id": 12,
+    "role_relevance": "Recovery; integrity checks; filesystem engineering",
+    "title": "Backup and Restore Verification"
+  },
+  {
+    "expected_fixture_exit": 0,
+    "fixture": "fixture.json",
+    "folder": "13_change_dependency_planning",
+    "format": "json",
+    "id": 13,
+    "role_relevance": "Change control; team delivery; dependency reasoning",
+    "title": "Change Dependency and Rollback Planning"
+  },
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.json",
+    "folder": "14_incident_handoff_reporting",
+    "format": "json",
+    "id": 14,
+    "role_relevance": "Executive communication; incident ownership; documentation",
+    "title": "Incident Timeline and Handoff"
+  },
+  {
+    "expected_fixture_exit": 1,
+    "fixture": "fixture.json",
+    "folder": "15_ai_code_review_harness",
+    "format": "json",
+    "id": 15,
+    "role_relevance": "AI code evaluation; Python; failure preservation",
+    "title": "AI-Assisted Code Review Harness"
+  }
+]

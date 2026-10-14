@@ -1,0 +1,298 @@
+{
+  "assessments": [
+    {
+      "candidate": "strict",
+      "cases": [
+        {
+          "actual": 0,
+          "case": "verified_success",
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "case": "earlier_failure",
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "case": "unverified_workflow",
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "actual": 2,
+          "case": "missing_exit_code",
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "actual": 2,
+          "case": "missing_validation",
+          "expected": 2,
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "case": "empty_evidence",
+          "expected": 3,
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "case": "boolean_exit_code",
+          "expected": 3,
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "case": "string_exit_code",
+          "expected": 3,
+          "passed": true
+        },
+        {
+          "actual": 1,
+          "case": "terminated_process",
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "actual": 3,
+          "case": "duplicate_jobs",
+          "expected": 3,
+          "passed": true
+        }
+      ],
+      "passed": 10,
+      "total": 10
+    },
+    {
+      "candidate": "false_success",
+      "cases": [
+        {
+          "actual": 0,
+          "case": "verified_success",
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "actual": 0,
+          "case": "earlier_failure",
+          "expected": 1,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "unverified_workflow",
+          "expected": 1,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "missing_exit_code",
+          "expected": 2,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "missing_validation",
+          "expected": 2,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "empty_evidence",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "boolean_exit_code",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "string_exit_code",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "terminated_process",
+          "expected": 1,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "duplicate_jobs",
+          "expected": 3,
+          "passed": false
+        }
+      ],
+      "passed": 1,
+      "total": 10
+    },
+    {
+      "candidate": "last_result",
+      "cases": [
+        {
+          "actual": 0,
+          "case": "verified_success",
+          "expected": 0,
+          "passed": true
+        },
+        {
+          "actual": 0,
+          "case": "earlier_failure",
+          "expected": 1,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "unverified_workflow",
+          "expected": 1,
+          "passed": false
+        },
+        {
+          "actual": 1,
+          "case": "missing_exit_code",
+          "expected": 2,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "missing_validation",
+          "expected": 2,
+          "passed": false
+        },
+        {
+          "actual": 1,
+          "case": "empty_evidence",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 0,
+          "case": "boolean_exit_code",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 1,
+          "case": "string_exit_code",
+          "expected": 3,
+          "passed": false
+        },
+        {
+          "actual": 1,
+          "case": "terminated_process",
+          "expected": 1,
+          "passed": true
+        },
+        {
+          "actual": 0,
+          "case": "duplicate_jobs",
+          "expected": 3,
+          "passed": false
+        }
+      ],
+      "passed": 2,
+      "total": 10
+    }
+  ],
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case earlier_failure."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case unverified_workflow."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case missing_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case missing_validation."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case empty_evidence."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case boolean_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case string_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case terminated_process."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "false_success",
+      "message": "Candidate failed evaluation case duplicate_jobs."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case earlier_failure."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case unverified_workflow."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case missing_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case missing_validation."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case empty_evidence."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case boolean_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case string_exit_code."
+    },
+    {
+      "code": "candidate_case_failed",
+      "item": "last_result",
+      "message": "Candidate failed evaluation case duplicate_jobs."
+    }
+  ],
+  "missing_evidence": [],
+  "policy_scope": "Reviewed bundled functions and ten local cases; no LLM calls, arbitrary-code execution or production quality score.",
+  "sample": 15,
+  "status": "issues",
+  "title": "AI-Assisted Code Review Harness"
+}

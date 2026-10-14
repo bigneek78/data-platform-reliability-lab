@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Collect approved RHEL lab facts without changing packages or services",
+    "hosts": "lab",
+    "gather_facts": false,
+    "tasks": [
+      {
+        "name": "Read the operating system family and mount facts",
+        "ansible.builtin.setup": {"filter": ["ansible_os_family", "ansible_mounts"]},
+        "register": "observed"
+      },
+      {
+        "name": "Display the limited fact collection for human review",
+        "ansible.builtin.debug": {"var": "observed.ansible_facts"}
+      }
+    ]
+  }
+]

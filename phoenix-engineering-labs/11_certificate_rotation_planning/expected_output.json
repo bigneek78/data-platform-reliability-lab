@@ -1,0 +1,43 @@
+{
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "expired",
+      "item": "lab-cert-a",
+      "message": "The supplied certificate validity has ended."
+    },
+    {
+      "code": "rotation_due",
+      "item": "lab-cert-b",
+      "message": "Schedule reviewed rotation within the sample warning horizon."
+    }
+  ],
+  "missing_evidence": [
+    {
+      "code": "rotation_owner_missing",
+      "item": "lab-cert-b",
+      "message": "Identify the rotation and validation owner."
+    }
+  ],
+  "policy_scope": "Supplied metadata dates only; no private keys, chain validation or certificate replacement.",
+  "rotation_order": [
+    {
+      "days_remaining": -0.042,
+      "id": "lab-cert-a",
+      "owner_assigned": true
+    },
+    {
+      "days_remaining": 17.0,
+      "id": "lab-cert-b",
+      "owner_assigned": false
+    },
+    {
+      "days_remaining": 79.5,
+      "id": "lab-cert-c",
+      "owner_assigned": true
+    }
+  ],
+  "sample": 11,
+  "status": "incomplete",
+  "title": "Certificate Rotation Planning"
+}

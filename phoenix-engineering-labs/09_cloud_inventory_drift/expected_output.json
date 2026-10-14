@@ -1,0 +1,27 @@
+{
+  "desired_resources": 2,
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "attribute_drift",
+      "item": "lab-server-a",
+      "message": "The declared and observed encrypted values differ."
+    },
+    {
+      "code": "resource_not_observed",
+      "item": "lab-store-b",
+      "message": "The desired resource is absent from the supplied inventory."
+    },
+    {
+      "code": "undeclared_resource",
+      "item": "lab-store-c",
+      "message": "Review a resource outside the declared inventory."
+    }
+  ],
+  "missing_evidence": [],
+  "observed_resources": 2,
+  "policy_scope": "Declared attributes only; no cloud API access, deletions or secret values in findings.",
+  "sample": 9,
+  "status": "issues",
+  "title": "Cloud Inventory Drift Review"
+}

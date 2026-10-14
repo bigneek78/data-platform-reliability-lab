@@ -1,0 +1,27 @@
+{
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "disk_capacity",
+      "item": "LAB-RHEL-A",
+      "message": "Available root space is below the supplied maintenance requirement."
+    },
+    {
+      "code": "reboot_not_authorized",
+      "item": "LAB-RHEL-A",
+      "message": "A required reboot is not authorized by this plan."
+    }
+  ],
+  "hosts": 1,
+  "missing_evidence": [
+    {
+      "code": "backup_verified_unknown",
+      "item": "LAB-RHEL-A",
+      "message": "Obtain evidence for backup_verified."
+    }
+  ],
+  "policy_scope": "Plan review only; no patching, reboot, repository or backup operation is performed.",
+  "sample": 5,
+  "status": "incomplete",
+  "title": "RHEL Patch Readiness"
+}

@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "findings": [],
+  "missing_evidence": [],
+  "paths": [
+    "etc/demo-service.ini",
+    "runbooks/recovery.txt"
+  ],
+  "policy_scope": "Real file and checksum operations on temporary synthetic files; no production recovery/RPO claim.",
+  "sample": 12,
+  "status": "clear",
+  "title": "Backup and Restore Verification",
+  "verified_bytes": 105,
+  "verified_files": 2
+}

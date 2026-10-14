@@ -1,0 +1,28 @@
+{
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "expired",
+      "item": "certificate",
+      "message": "The supplied certificate validity interval has ended."
+    },
+    {
+      "code": "failure_cluster",
+      "item": "authentication",
+      "message": "Investigate clustered failures even when a later login succeeds."
+    }
+  ],
+  "missing_evidence": [
+    {
+      "code": "mapping_valid_unknown",
+      "item": "certificate",
+      "message": "Obtain evidence for mapping_valid."
+    }
+  ],
+  "policy_scope": "Supplied evidence only; a successful login is not proof of application authorization.",
+  "recent_failures": 3,
+  "recent_successes": 1,
+  "sample": 2,
+  "status": "incomplete",
+  "title": "Identity and Authentication Triage"
+}

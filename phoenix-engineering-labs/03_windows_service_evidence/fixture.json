@@ -1,0 +1,29 @@
+{
+  "expected_services": [
+    "W32Time",
+    "EventLog"
+  ],
+  "hosts": [
+    {
+      "collection_ok": true,
+      "id": "LAB-WIN-A",
+      "services": [
+        {
+          "name": "W32Time",
+          "state": "Stopped"
+        },
+        {
+          "name": "EventLog",
+          "state": "Running"
+        }
+      ]
+    },
+    {
+      "collection_ok": false,
+      "id": "LAB-WIN-B",
+      "services": []
+    }
+  ],
+  "max_age_minutes": 60,
+  "observed_at": "2026-10-13T11:59:00Z"
+}

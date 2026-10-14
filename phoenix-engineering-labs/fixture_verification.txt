@@ -1,0 +1,16 @@
+{"sample": 1, "status": "issues", "exit_code": 1, "reproduced": true}
+{"sample": 2, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 3, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 4, "status": "issues", "exit_code": 1, "reproduced": true}
+{"sample": 5, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 6, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 7, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 8, "status": "issues", "exit_code": 1, "reproduced": true}
+{"sample": 9, "status": "issues", "exit_code": 1, "reproduced": true}
+{"sample": 10, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 11, "status": "incomplete", "exit_code": 2, "reproduced": true}
+{"sample": 12, "status": "clear", "exit_code": 0, "reproduced": true}
+{"sample": 13, "status": "clear", "exit_code": 0, "reproduced": true}
+{"sample": 14, "status": "issues", "exit_code": 1, "reproduced": true}
+{"sample": 15, "status": "issues", "exit_code": 1, "reproduced": true}
+{"samples_verified": 15, "evaluation_time": "2026-10-13T12:00:00Z"}

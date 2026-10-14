@@ -1,0 +1,21 @@
+{
+  "exit_code": 1,
+  "findings": [
+    {
+      "code": "replication_error",
+      "item": "LAB-DC-A -> LAB-DC-B / DC=lab,DC=invalid",
+      "message": "Replication reported error 1722; determine its cause from evidence."
+    },
+    {
+      "code": "success_age",
+      "item": "LAB-DC-A -> LAB-DC-B / DC=lab,DC=invalid",
+      "message": "No successful replication within the sample four-hour interval."
+    }
+  ],
+  "links": 2,
+  "missing_evidence": [],
+  "policy_scope": "Normalized CSV, sample freshness and age limits; no domain changes.",
+  "sample": 4,
+  "status": "issues",
+  "title": "Active Directory Replication Review"
+}

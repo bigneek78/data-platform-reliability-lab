@@ -1,0 +1,15 @@
+---
+description: Preserve evidence, failures, and validation boundaries in these engineering labs.
+globs: "**/*.py"
+alwaysApply: true
+---
+
+- Define the expected behavior and failure cases before changing code.
+- Keep `findings` and `missing_evidence` distinct. Never erase known failures because a later operation succeeds.
+- Reject ambiguous, duplicate, malformed, or timezone-naive evidence.
+- Preserve process exit codes. Do not claim workflow restoration from process completion alone.
+- Use the approved synthetic fixtures and local tests. Add no credentials, production exports, remote calls, or deployment actions.
+- Explain the scope of a finding, the technical owner who should review it, and the validation needed before closure.
+- Make changes small enough for another engineer to inspect and reproduce.
+
+This rule is supplied for a Cursor review exercise. The IDE itself was not invoked during repository preparation.

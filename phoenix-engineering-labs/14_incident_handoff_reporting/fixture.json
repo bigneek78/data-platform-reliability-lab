@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "at": "2026-10-13T11:10:00Z",
+      "id": "a",
+      "kind": "finding",
+      "severity": "error",
+      "summary": "A demo user at demo@example.invalid reported a deny from 192.0.2.10"
+    },
+    {
+      "at": "2026-10-13T11:15:00Z",
+      "id": "b",
+      "kind": "hypothesis",
+      "severity": "warning",
+      "summary": "Certificate mapping may differ from the working identity"
+    },
+    {
+      "at": "2026-10-13T11:20:00Z",
+      "id": "c",
+      "kind": "action",
+      "summary": "Preserved the failed request timestamp and application event"
+    },
+    {
+      "at": "2026-10-13T11:30:00Z",
+      "id": "d",
+      "kind": "validation",
+      "successful": false,
+      "summary": "The affected user still cannot complete the authorized demo action"
+    }
+  ],
+  "impact": "Synthetic API authentication failures",
+  "incident_id": "INC-LAB-001",
+  "max_age_minutes": 60,
+  "next_action": "Collect the application deny evidence with the identity owner",
+  "observed_at": "2026-10-13T11:59:00Z",
+  "owner": "support",
+  "state": "open"
+}

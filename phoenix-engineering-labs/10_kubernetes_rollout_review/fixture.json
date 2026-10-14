@@ -1,0 +1,69 @@
+{
+  "deployment": {
+    "apiVersion": "apps/v1",
+    "kind": "Deployment",
+    "metadata": {
+      "generation": 3,
+      "name": "lab-api",
+      "namespace": "lab"
+    },
+    "spec": {
+      "replicas": 2
+    },
+    "status": {
+      "availableReplicas": 1,
+      "conditions": [
+        {
+          "reason": "ProgressDeadlineExceeded",
+          "status": "False",
+          "type": "Progressing"
+        }
+      ],
+      "observedGeneration": 2,
+      "readyReplicas": 1,
+      "replicas": 2,
+      "updatedReplicas": 1
+    }
+  },
+  "max_age_minutes": 60,
+  "observed_at": "2026-10-13T11:59:00Z",
+  "pods": [
+    {
+      "metadata": {
+        "name": "lab-api-a"
+      },
+      "status": {
+        "containerStatuses": [
+          {
+            "name": "api",
+            "ready": false,
+            "state": {
+              "waiting": {
+                "reason": "CrashLoopBackOff"
+              }
+            }
+          }
+        ],
+        "phase": "Running"
+      }
+    },
+    {
+      "metadata": {
+        "name": "lab-api-b"
+      },
+      "status": {
+        "containerStatuses": [
+          {
+            "name": "api",
+            "ready": true,
+            "state": {
+              "running": {}
+            }
+          }
+        ],
+        "phase": "Running"
+      }
+    }
+  ],
+  "pods_complete": true
+}

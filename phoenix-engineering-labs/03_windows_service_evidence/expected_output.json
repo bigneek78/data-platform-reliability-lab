@@ -1,0 +1,22 @@
+{
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "service_not_running",
+      "item": "LAB-WIN-A",
+      "message": "W32Time is Stopped."
+    }
+  ],
+  "hosts": 2,
+  "missing_evidence": [
+    {
+      "code": "collection_failed",
+      "item": "LAB-WIN-B",
+      "message": "Collection failed; host service health is unknown."
+    }
+  ],
+  "policy_scope": "Service-state review; application workflow validation remains separate.",
+  "sample": 3,
+  "status": "incomplete",
+  "title": "Windows Service Evidence Review"
+}

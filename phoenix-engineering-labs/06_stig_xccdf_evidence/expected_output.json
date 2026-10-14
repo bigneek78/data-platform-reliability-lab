@@ -1,0 +1,27 @@
+{
+  "exit_code": 2,
+  "findings": [
+    {
+      "code": "rule_failed",
+      "item": "xccdf_org.lab_rule_02",
+      "message": "Review the failed control and document the approved remediation."
+    }
+  ],
+  "missing_evidence": [
+    {
+      "code": "rule_unverified",
+      "item": "xccdf_org.lab_rule_03",
+      "message": "Result notchecked requires evidence or a current verification scan."
+    }
+  ],
+  "policy_scope": "Results of this supplied scan only; no accreditation or complete baseline claim.",
+  "result_counts": {
+    "fail": 1,
+    "notchecked": 1,
+    "pass": 1
+  },
+  "rules": 3,
+  "sample": 6,
+  "status": "incomplete",
+  "title": "STIG / XCCDF Evidence Review"
+}
