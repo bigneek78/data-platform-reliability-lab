@@ -2,6 +2,8 @@
 
 **Neco Thomas · Systems, cloud, security, automation, and support operations**
 
+[![Project Phoenix validation](https://github.com/bigneek78/data-platform-reliability-lab/actions/workflows/phoenix-python-tests.yml/badge.svg)](https://github.com/bigneek78/data-platform-reliability-lab/actions/workflows/phoenix-python-tests.yml)
+
 Fifteen engineering demonstrations that make technical judgment reviewable: collect evidence, preserve known failures, clarify ownership, and validate the workflow before accepting success.
 
 These samples were created with AI assistance for learning, technical review, and job-application discussion. The fixtures are synthetic. They are separate from employer production work and contain no employer configurations, credentials, or government network exports.

@@ -36,6 +36,6 @@ SHA-256 comparisons establish content integrity relative to the supplied manifes
 
 The PowerShell collectors were not run against Windows or Active Directory. No Ansible runtime, Terraform provider runtime, Kubernetes cluster, Cursor IDE, or cloud/LLM API was invoked. Native integration examples are supplied with explicit prerequisites and limits.
 
-GitHub Actions is configured for Linux/Windows and Python 3.12/3.13. A live GitHub CI result has not been obtained in this prepared version. The local verification result applies to the stated Python 3.12.14 Linux runtime.
+The original local verification result applies to the stated Python 3.12.14 Linux runtime. After publication, [GitHub Actions run 38492575044](https://github.com/bigneek78/data-platform-reliability-lab/actions/runs/38492575044) completed successfully on October 14, 2026 (UTC), for source commit `1a0b29fecc0451cef83fa51e9f66cee3527890e3`. All four Linux/Windows and Python 3.12/3.13 configurations passed behavioral tests and fixture reproduction. Both Windows jobs also passed PowerShell syntax parsing. See `docs/PUBLISHING.md` for the publication record.
 
 The sample thresholds, policies, identities, events, and configurations are demonstration assumptions. The results do not certify production security, employer experience, service recovery, or job suitability.
