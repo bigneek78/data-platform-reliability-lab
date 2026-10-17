@@ -1,0 +1,15 @@
+TransitPulse: Bus Headway Holding Simulation
+
+Can bounded holding reduce departure bunching without hiding passenger delay?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+For the fixture, headway error falls from approximately 6.455 to 1.528 minutes, while the policy adds 20 total vehicle-minutes of hold. The expected departure sequence is asserted directly. Tests also check zero holding, a single bus, empty data, and invalid arrival ordering.
+
+Engineering judgment: This is a terminal policy demonstration, not a city-network optimization. Passenger counts, transfer reliability, dwell time, traffic feedback, driver constraints, and downstream stops are absent. The measured improvement applies to this synthetic arrival sequence only.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/07-transitpulse
+
+#Engineering #SystemsEngineering #ProjectPhoenix

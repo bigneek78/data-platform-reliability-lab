@@ -1,0 +1,28 @@
+{
+  "assignments": [
+    {
+      "job": "J1",
+      "robot": "R2",
+      "distance": 1
+    },
+    {
+      "job": "J2",
+      "robot": "R1",
+      "distance": 1
+    },
+    {
+      "job": "J3",
+      "robot": "R3",
+      "distance": 1
+    }
+  ],
+  "metrics": {
+    "optimal_distance": 3,
+    "greedy_distance": null
+  },
+  "trace": [
+    1,
+    1,
+    1
+  ]
+}

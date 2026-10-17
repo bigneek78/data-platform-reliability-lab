@@ -1,0 +1,10 @@
+# Configuration only; no GitLab runner execution is claimed.
+stages: [test]
+verify:
+  stage: test
+  image: node:24-bookworm
+  before_script:
+    - apt-get update
+    - apt-get install -y python3 g++ gcc openjdk-17-jre-headless
+  script:
+    - python3 frontier-projects/verify_all.py

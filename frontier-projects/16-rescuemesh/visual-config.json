@@ -1,0 +1,9 @@
+{
+  "name": "RescueMesh",
+  "nodes": [
+    "Queue events",
+    "TTL and retries",
+    "Acknowledgement state",
+    "Delivery ledger"
+  ]
+}

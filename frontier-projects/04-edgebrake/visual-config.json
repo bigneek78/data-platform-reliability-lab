@@ -1,0 +1,9 @@
+{
+  "name": "EdgeBrake",
+  "nodes": [
+    "Ordered events",
+    "Freshness checks",
+    "Latched state",
+    "Reset review"
+  ]
+}

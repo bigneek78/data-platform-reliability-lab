@@ -1,0 +1,9 @@
+{
+  "name": "CareSlot",
+  "nodes": [
+    "Request windows",
+    "Resource eligibility",
+    "Lexicographic DP",
+    "Booking exceptions"
+  ]
+}

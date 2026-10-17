@@ -1,0 +1,15 @@
+CareSlot: Clinic Resource Scheduling
+
+Can an appointment desk book more requests when available resources differ by slot?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+Three of four fixture requests are booked, with a total wait of 6 abstract time units. The specialized Q2 request receives S1, and the unavailable Q4 request remains unbooked. Tests cover slot uniqueness, resource preservation, inclusive time boundaries, empty capacity, and invalid windows.
+
+Engineering judgment: The objective is an operations illustration. It does not assess symptoms, urgency, insurance, protected characteristics, or access eligibility. It ignores appointment durations, staffing overlap, cancellations, and patient preferences beyond the supplied window. It is bounded to 16 requests and slots.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/13-careslot
+
+#Engineering #SystemsEngineering #ProjectPhoenix

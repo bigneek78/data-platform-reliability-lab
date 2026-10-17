@@ -1,0 +1,8 @@
+{
+  "slug": "03-gripsense",
+  "title": "GripSense: Motor Telemetry Change Detection",
+  "domain": "Robotics",
+  "language": "Python",
+  "question": "Can an inexpensive detector flag a sustained change without learning the fault as normal?",
+  "algorithm": "EWMA residual detector with a calibration window and frozen baseline on flagged readings"
+}

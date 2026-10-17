@@ -1,0 +1,15 @@
+AisleGuard: Robot Route Replanning
+
+How can a simulated warehouse robot find a short route after an aisle closes?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The demonstration reaches the destination in 11 steps both before and after the closure. Equal route length does not mean equal route: the trace avoids the newly blocked cells. Tests check adjacency, blocked endpoints, unreachable goals, malformed grids, and a known four-step route.
+
+Engineering judgment: A* is appropriate for this discrete, uniform-cost grid. It does not model turning radius, localization uncertainty, moving people, or braking distance. Replanning starts from the fixture origin; it does not pretend to recover a physical robot pose in motion.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/01-aisleguard
+
+#Engineering #SystemsEngineering #ProjectPhoenix

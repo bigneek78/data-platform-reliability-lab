@@ -1,0 +1,13 @@
+test_blocked (test_project.Tests.test_blocked) ... ok
+test_closed_cells_avoided (test_project.Tests.test_closed_cells_avoided) ... ok
+test_invalid_coordinate (test_project.Tests.test_invalid_coordinate) ... ok
+test_path_edges (test_project.Tests.test_path_edges) ... ok
+test_ragged (test_project.Tests.test_ragged) ... ok
+test_same_endpoint (test_project.Tests.test_same_endpoint) ... ok
+test_shortest (test_project.Tests.test_shortest) ... ok
+test_unreachable (test_project.Tests.test_unreachable) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.548s
+
+OK

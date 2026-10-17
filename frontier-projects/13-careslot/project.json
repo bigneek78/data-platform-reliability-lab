@@ -1,0 +1,8 @@
+{
+  "slug": "13-careslot",
+  "title": "CareSlot: Clinic Resource Scheduling",
+  "domain": "Healthcare operations",
+  "language": "Python",
+  "question": "Can an appointment desk book more requests when available resources differ by slot?",
+  "algorithm": "Exact subset dynamic programming maximizing bookings before minimizing total wait"
+}

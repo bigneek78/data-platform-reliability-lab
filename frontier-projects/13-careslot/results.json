@@ -1,0 +1,50 @@
+{
+  "bookings": [
+    {
+      "request": "Q1",
+      "slot": "S2",
+      "time": 12,
+      "wait": 3
+    },
+    {
+      "request": "Q2",
+      "slot": "S1",
+      "time": 10,
+      "wait": 1
+    },
+    {
+      "request": "Q3",
+      "slot": "S3",
+      "time": 16,
+      "wait": 2
+    }
+  ],
+  "unbooked": [
+    "Q4"
+  ],
+  "metrics": {
+    "booked": 3,
+    "unbooked": 1,
+    "total_wait_units": 6
+  },
+  "trace": [
+    {
+      "request": "Q1",
+      "slot": "S2",
+      "time": 12,
+      "wait": 3
+    },
+    {
+      "request": "Q2",
+      "slot": "S1",
+      "time": 10,
+      "wait": 1
+    },
+    {
+      "request": "Q3",
+      "slot": "S3",
+      "time": 16,
+      "wait": 2
+    }
+  ]
+}

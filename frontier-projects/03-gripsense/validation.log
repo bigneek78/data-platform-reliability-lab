@@ -1,0 +1,13 @@
+test_bad_alpha (test_project.Tests.test_bad_alpha) ... ok
+test_detects_injected_change (test_project.Tests.test_detects_injected_change) ... ok
+test_freeze (test_project.Tests.test_freeze) ... ok
+test_missing (test_project.Tests.test_missing) ... ok
+test_normal_constant (test_project.Tests.test_normal_constant) ... ok
+test_recovers (test_project.Tests.test_recovers) ... ok
+test_short_calibration (test_project.Tests.test_short_calibration) ... ok
+test_threshold_boundary (test_project.Tests.test_threshold_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

@@ -1,0 +1,13 @@
+test_bad_window (test_project.Tests.test_bad_window) ... ok
+test_empty_slots (test_project.Tests.test_empty_slots) ... ok
+test_maximum_bookings (test_project.Tests.test_maximum_bookings) ... ok
+test_specialized_slot_preserved (test_project.Tests.test_specialized_slot_preserved) ... ok
+test_unbooked_explicit (test_project.Tests.test_unbooked_explicit) ... ok
+test_unique_slots (test_project.Tests.test_unique_slots) ... ok
+test_wait_objective (test_project.Tests.test_wait_objective) ... ok
+test_window_boundary (test_project.Tests.test_window_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

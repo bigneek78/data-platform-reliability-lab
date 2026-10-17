@@ -1,0 +1,8 @@
+{
+  "slug": "17-groundedbrief",
+  "title": "GroundedBrief: Retrieval With Evidence and Abstention",
+  "domain": "AI systems",
+  "language": "Python",
+  "question": "Can a support assistant retrieve a relevant passage and refuse a query with insufficient evidence?",
+  "algorithm": "Local TF-IDF cosine retrieval with a relevance threshold and verbatim evidence extraction"
+}

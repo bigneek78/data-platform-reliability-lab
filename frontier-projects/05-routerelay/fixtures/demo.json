@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    "Depot",
+    "A",
+    "B",
+    "C",
+    "Clinic"
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "Depot",
+      "target": "A",
+      "cost": 3
+    },
+    {
+      "id": "e2",
+      "source": "A",
+      "target": "Clinic",
+      "cost": 4
+    },
+    {
+      "id": "e3",
+      "source": "Depot",
+      "target": "B",
+      "cost": 2
+    },
+    {
+      "id": "e4",
+      "source": "B",
+      "target": "C",
+      "cost": 2
+    },
+    {
+      "id": "e5",
+      "source": "C",
+      "target": "Clinic",
+      "cost": 2
+    }
+  ],
+  "start": "Depot",
+  "goal": "Clinic",
+  "closed": [
+    "e4"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "cost": 7,
+  "path": [
+    "Depot",
+    "A",
+    "Clinic"
+  ],
+  "settled": [
+    {
+      "node": "Depot",
+      "cost": 0
+    },
+    {
+      "node": "B",
+      "cost": 2
+    },
+    {
+      "node": "A",
+      "cost": 3
+    },
+    {
+      "node": "Clinic",
+      "cost": 7
+    }
+  ],
+  "metrics": {
+    "route_cost": 7,
+    "edges_used": 2
+  },
+  "trace": [
+    {
+      "node": "Depot",
+      "cost": 0
+    },
+    {
+      "node": "B",
+      "cost": 2
+    },
+    {
+      "node": "A",
+      "cost": 3
+    },
+    {
+      "node": "Clinic",
+      "cost": 7
+    }
+  ]
+}

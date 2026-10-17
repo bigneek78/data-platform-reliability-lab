@@ -1,0 +1,9 @@
+{
+  "name": "ReleaseProof",
+  "nodes": [
+    "Artifact manifest",
+    "Bounded file hashing",
+    "Evidence checks",
+    "Release eligibility"
+  ]
+}

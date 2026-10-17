@@ -1,0 +1,13 @@
+test_bad_resolution (test_project.Tests.test_bad_resolution) ... ok
+test_constant_baseline (test_project.Tests.test_constant_baseline) ... ok
+test_flags (test_project.Tests.test_flags) ... ok
+test_median_robust_to_single_spike (test_project.Tests.test_median_robust_to_single_spike) ... ok
+test_negative_pressure (test_project.Tests.test_negative_pressure) ... ok
+test_short_baseline (test_project.Tests.test_short_baseline) ... ok
+test_threshold_boundary (test_project.Tests.test_threshold_boundary) ... ok
+test_unknown_not_normal (test_project.Tests.test_unknown_not_normal) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK

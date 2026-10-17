@@ -1,0 +1,8 @@
+{
+  "slug": "15-medtrace",
+  "title": "MedTrace: Synthetic FHIR Bundle Preflight",
+  "domain": "Healthcare data engineering",
+  "language": "Python + JSON",
+  "question": "Can a small preflight catch duplicate identities and unresolved references before a synthetic bundle enters a pipeline?",
+  "algorithm": "Restricted FHIR R4 collection-bundle identity and local-reference validation"
+}

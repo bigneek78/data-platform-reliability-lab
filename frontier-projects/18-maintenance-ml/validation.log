@@ -1,0 +1,13 @@
+test_deterministic (test_project.Tests.test_deterministic) ... ok
+test_holdout_accounting (test_project.Tests.test_holdout_accounting) ... ok
+test_holdout_quality_on_fixture (test_project.Tests.test_holdout_quality_on_fixture) ... ok
+test_invalid_rate (test_project.Tests.test_invalid_rate) ... ok
+test_loss_falls (test_project.Tests.test_loss_falls) ... ok
+test_scaler_reference (test_project.Tests.test_scaler_reference) ... ok
+test_shift_review (test_project.Tests.test_shift_review) ... ok
+test_split_counts (test_project.Tests.test_split_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.942s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "slug": "06-chargewise",
+  "title": "ChargeWise: Deadline-Aware EV Charging",
+  "domain": "Transportation and energy",
+  "language": "Python",
+  "question": "How can a shared charging site deliver energy before departure while favoring lower-cost hours?",
+  "algorithm": "Integral minimum-cost maximum flow with vehicle, hourly-rate, and site-capacity constraints"
+}

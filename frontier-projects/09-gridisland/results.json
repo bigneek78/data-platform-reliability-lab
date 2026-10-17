@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "dispatch_cost_units": 36,
+    "no_battery_cost_units": 57,
+    "terminal_soc": 2,
+    "imported_kwh": 12
+  },
+  "trace": [
+    {
+      "hour": 0,
+      "soc_before": 2,
+      "soc_after": 2,
+      "grid": 3,
+      "curtailed": 0,
+      "demand": 3,
+      "solar": 0
+    },
+    {
+      "hour": 1,
+      "soc_before": 2,
+      "soc_after": 4,
+      "grid": 4,
+      "curtailed": 0,
+      "demand": 4,
+      "solar": 2
+    },
+    {
+      "hour": 2,
+      "soc_before": 4,
+      "soc_after": 6,
+      "grid": 1,
+      "curtailed": 0,
+      "demand": 5,
+      "solar": 6
+    },
+    {
+      "hour": 3,
+      "soc_before": 6,
+      "soc_after": 6,
+      "grid": 1,
+      "curtailed": 0,
+      "demand": 4,
+      "solar": 3
+    },
+    {
+      "hour": 4,
+      "soc_before": 6,
+      "soc_after": 4,
+      "grid": 1,
+      "curtailed": 0,
+      "demand": 3,
+      "solar": 0
+    },
+    {
+      "hour": 5,
+      "soc_before": 4,
+      "soc_after": 2,
+      "grid": 2,
+      "curtailed": 0,
+      "demand": 4,
+      "solar": 0
+    }
+  ],
+  "assumptions": [
+    "one-hour slots",
+    "integer kWh",
+    "ideal 100-percent battery efficiency",
+    "no export revenue"
+  ]
+}

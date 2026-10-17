@@ -1,0 +1,15 @@
+WaterWatch: Pressure Anomaly Review
+
+Which synthetic pressure readings deserve review when sensors can be missing or unusually noisy?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The synthetic sequence contains two low-pressure readings marked REVIEW, one UNKNOWN reading, and eight observed readings. Tests check the zero-variation calibration case, a single extreme calibration point, exact threshold equality, negative measurements, and insufficient baseline evidence.
+
+Engineering judgment: The score is a deviation from this baseline, not a probability of a leak and not a potability assessment. A changed pump regime or sensor fault could produce the same pattern. Baseline selection and threshold calibration require field-specific evidence.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/10-waterwatch
+
+#Engineering #SystemsEngineering #ProjectPhoenix

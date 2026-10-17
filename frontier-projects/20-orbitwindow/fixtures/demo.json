@@ -1,0 +1,46 @@
+{
+  "windows": [
+    {
+      "id": "SAT-A",
+      "start": 0,
+      "end": 8,
+      "value": 6
+    },
+    {
+      "id": "SAT-B",
+      "start": 4,
+      "end": 12,
+      "value": 10
+    },
+    {
+      "id": "SAT-C",
+      "start": 8,
+      "end": 14,
+      "value": 7
+    },
+    {
+      "id": "SAT-D",
+      "start": 14,
+      "end": 19,
+      "value": 9
+    },
+    {
+      "id": "SAT-E",
+      "start": 19,
+      "end": 25,
+      "value": 8
+    },
+    {
+      "id": "SAT-F",
+      "start": 25,
+      "end": 30,
+      "value": 5
+    }
+  ],
+  "blackouts": [
+    {
+      "start": 18,
+      "end": 21
+    }
+  ]
+}

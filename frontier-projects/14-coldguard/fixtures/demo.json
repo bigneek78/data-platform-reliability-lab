@@ -1,0 +1,33 @@
+{
+  "policy_xml": "policy.xml",
+  "readings": [
+    {
+      "minute": 0,
+      "temp": 5
+    },
+    {
+      "minute": 5,
+      "temp": 6
+    },
+    {
+      "minute": 10,
+      "temp": 11
+    },
+    {
+      "minute": 15,
+      "temp": 10
+    },
+    {
+      "minute": 20,
+      "temp": null
+    },
+    {
+      "minute": 25,
+      "temp": 5
+    },
+    {
+      "minute": 30,
+      "temp": 5
+    }
+  ]
+}

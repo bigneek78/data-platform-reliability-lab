@@ -1,0 +1,27 @@
+{
+  "decision": "EVIDENCE_FOUND",
+  "evidence": {
+    "citation": "RB-01",
+    "quote": "Operators run a monthly restore drill in the isolated lab."
+  },
+  "metrics": {
+    "top_similarity": 0.4956373444285904,
+    "documents_scored": 3,
+    "evidence_passages": 1
+  },
+  "trace": [
+    {
+      "id": "RB-01",
+      "score": 0.4956373444285904
+    },
+    {
+      "id": "RB-02",
+      "score": 0.0
+    },
+    {
+      "id": "RB-03",
+      "score": 0.0
+    }
+  ],
+  "scope": "Extractive lexical retrieval; no generative language model is called."
+}

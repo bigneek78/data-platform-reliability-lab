@@ -1,0 +1,8 @@
+{
+  "slug": "01-aisleguard",
+  "title": "AisleGuard: Robot Route Replanning",
+  "domain": "Robotics",
+  "language": "C++17 + Python",
+  "question": "How can a simulated warehouse robot find a short route after an aisle closes?",
+  "algorithm": "Manhattan-heuristic A* with a second plan after a map update"
+}

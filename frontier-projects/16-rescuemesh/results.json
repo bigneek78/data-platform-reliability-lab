@@ -1,0 +1,44 @@
+{
+  "delivered": [
+    "M1"
+  ],
+  "expired": [
+    "M2"
+  ],
+  "pending": [],
+  "metrics": {
+    "send_attempts": 2,
+    "acknowledged": 1,
+    "expired": 1,
+    "duplicate_enqueues": 1
+  },
+  "trace": [
+    {
+      "time": 3,
+      "op": "send",
+      "id": "M1",
+      "attempt": 1
+    },
+    {
+      "time": 3,
+      "op": "send",
+      "id": "M2",
+      "attempt": 1
+    },
+    {
+      "time": 4,
+      "op": "acknowledged",
+      "id": "M1"
+    },
+    {
+      "time": 5,
+      "op": "expire",
+      "id": "M2"
+    },
+    {
+      "time": 6,
+      "op": "duplicate",
+      "id": "M1"
+    }
+  ]
+}

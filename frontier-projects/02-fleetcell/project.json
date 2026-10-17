@@ -1,0 +1,8 @@
+{
+  "slug": "02-fleetcell",
+  "title": "FleetCell: Capability-Aware Robot Assignment",
+  "domain": "Robotics",
+  "language": "Python",
+  "question": "Which robot should take each task when capabilities and travel costs conflict?",
+  "algorithm": "Exact subset dynamic programming for minimum-cost one-to-one task assignment"
+}

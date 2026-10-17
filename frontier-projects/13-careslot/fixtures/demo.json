@@ -1,0 +1,62 @@
+{
+  "slots": [
+    {
+      "id": "S1",
+      "time": 10,
+      "resources": [
+        "room",
+        "scanner"
+      ]
+    },
+    {
+      "id": "S2",
+      "time": 12,
+      "resources": [
+        "room"
+      ]
+    },
+    {
+      "id": "S3",
+      "time": 16,
+      "resources": [
+        "room",
+        "scanner"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "Q1",
+      "earliest": 9,
+      "latest": 14,
+      "resources": [
+        "room"
+      ]
+    },
+    {
+      "id": "Q2",
+      "earliest": 9,
+      "latest": 11,
+      "resources": [
+        "scanner"
+      ]
+    },
+    {
+      "id": "Q3",
+      "earliest": 14,
+      "latest": 18,
+      "resources": [
+        "room",
+        "scanner"
+      ]
+    },
+    {
+      "id": "Q4",
+      "earliest": 20,
+      "latest": 21,
+      "resources": [
+        "room"
+      ]
+    }
+  ]
+}

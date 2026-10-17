@@ -1,0 +1,9 @@
+{
+  "name": "GroundedBrief",
+  "nodes": [
+    "Runbook corpus",
+    "TF-IDF retrieval",
+    "Threshold decision",
+    "Cited source span"
+  ]
+}

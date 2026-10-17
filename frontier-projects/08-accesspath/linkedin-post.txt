@@ -1,0 +1,15 @@
+AccessPath: Constraint-Aware Walking Routes
+
+Which synthetic walking route meets a stated width and slope constraint while avoiding stairs?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The fixture rejects the direct stairs and one steep ramp, then selects Entry, Lift, Exit with length 17. Raising the slope limit allows a length-12 alternative. Tests cover exact constraint boundaries, unreachable routes, unknown nodes, and negative lengths.
+
+Engineering judgment: The configuration describes user-selected constraints rather than a legal accessibility standard or a guarantee that a physical route is safe. The graph omits surface condition, crosswalk timing, lift outages, temporary obstructions, and the measurement uncertainty of width and slope.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/08-accesspath
+
+#Engineering #SystemsEngineering #ProjectPhoenix

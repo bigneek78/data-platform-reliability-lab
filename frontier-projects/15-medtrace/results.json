@@ -1,0 +1,22 @@
+{
+  "subset_pass": true,
+  "findings": [],
+  "metrics": {
+    "entries": 2,
+    "findings": 0,
+    "resolved_references": 1
+  },
+  "trace": [
+    {
+      "entry": 0,
+      "resource": "Patient/p-demo",
+      "initial_findings": 0
+    },
+    {
+      "entry": 1,
+      "resource": "Observation/o-demo",
+      "initial_findings": 0
+    }
+  ],
+  "scope": "Subset preflight, not a full FHIR validator or clinical validation."
+}

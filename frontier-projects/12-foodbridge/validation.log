@@ -1,0 +1,13 @@
+test_conservation (test_project.Tests.test_conservation) ... ok
+test_demand_accounting (test_project.Tests.test_demand_accounting) ... ok
+test_expected_unmet (test_project.Tests.test_expected_unmet) ... ok
+test_expiry_boundary_excluded (test_project.Tests.test_expiry_boundary_excluded) ... ok
+test_fefo (test_project.Tests.test_fefo) ... ok
+test_future_lot_not_used (test_project.Tests.test_future_lot_not_used) ... ok
+test_negative_units (test_project.Tests.test_negative_units) ... ok
+test_parameterized_identifier (test_project.Tests.test_parameterized_identifier) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

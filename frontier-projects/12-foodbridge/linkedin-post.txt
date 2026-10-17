@@ -1,0 +1,15 @@
+FoodBridge: Perishable Inventory Allocation
+
+Can a food-rescue desk fulfill timed requests while keeping expired lots out of allocations?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The demonstration fulfills 16 requested units, leaves 1 unit, and reports that remaining unit as expired at the reporting horizon. Tests reconcile supply and demand, verify expiry and availability boundaries, and prove that a punctuation-heavy identifier is treated as data rather than SQL.
+
+Engineering judgment: This is a desk allocation model, not a food-safety certification or delivery optimizer. Food types, allergens, handling temperature, nutrition, vehicle routes, and recipient preferences are absent. First-expiring-first-out is not a global proof of minimum waste across all possible future requests.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/12-foodbridge
+
+#Engineering #SystemsEngineering #ProjectPhoenix

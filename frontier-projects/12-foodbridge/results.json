@@ -1,0 +1,56 @@
+{
+  "allocations": [
+    {
+      "request": "Q1",
+      "lot": "L1",
+      "time": 1,
+      "units": 4
+    },
+    {
+      "request": "Q2",
+      "lot": "L2",
+      "time": 3,
+      "units": 6
+    },
+    {
+      "request": "Q3",
+      "lot": "L2",
+      "time": 5,
+      "units": 2
+    },
+    {
+      "request": "Q3",
+      "lot": "L3",
+      "time": 5,
+      "units": 4
+    }
+  ],
+  "unmet": {
+    "Q1": 0,
+    "Q2": 0,
+    "Q3": 0
+  },
+  "metrics": {
+    "allocated_units": 16,
+    "unmet_units": 0,
+    "remaining_units": 1,
+    "expired_remaining_units": 1
+  },
+  "trace": [
+    {
+      "request": "Q1",
+      "fulfilled": 4,
+      "unmet": 0
+    },
+    {
+      "request": "Q2",
+      "fulfilled": 6,
+      "unmet": 0
+    },
+    {
+      "request": "Q3",
+      "fulfilled": 6,
+      "unmet": 0
+    }
+  ]
+}

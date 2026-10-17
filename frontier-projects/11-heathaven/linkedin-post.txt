@@ -1,0 +1,15 @@
+HeatHaven: Cooling-Center Coverage Planning
+
+Which small set of candidate cooling centers covers the most synthetic neighborhood demand?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+Two selected centers cover 110 of 125 synthetic demand units. Area E remains explicitly uncovered. Greedy ties the exact result on this fixture, so the project does not claim a heuristic improvement. Tests cover zero budget, radius equality, overlapping coverage, and negative demand rejection.
+
+Engineering judgment: The model does not include center capacity, staffing, public transit, accessible entrances, weather forecasts, or individual medical vulnerability. Aggregate weights are invented; no real person is ranked or assigned access. The exact search is bounded to 18 candidates.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/11-heathaven
+
+#Engineering #SystemsEngineering #ProjectPhoenix

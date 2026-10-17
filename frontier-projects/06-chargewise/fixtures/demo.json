@@ -1,0 +1,37 @@
+{
+  "prices": [
+    8,
+    2,
+    3,
+    9
+  ],
+  "capacity": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "vehicles": [
+    {
+      "id": "EV-A",
+      "arrival": 0,
+      "departure": 3,
+      "need": 4,
+      "rate": 2
+    },
+    {
+      "id": "EV-B",
+      "arrival": 1,
+      "departure": 4,
+      "need": 3,
+      "rate": 2
+    },
+    {
+      "id": "EV-C",
+      "arrival": 0,
+      "departure": 2,
+      "need": 2,
+      "rate": 2
+    }
+  ]
+}

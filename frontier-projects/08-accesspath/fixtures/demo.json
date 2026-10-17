@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    "Entry",
+    "Lift",
+    "Ramp",
+    "Garden",
+    "Exit"
+  ],
+  "edges": [
+    {
+      "id": "stairs",
+      "source": "Entry",
+      "target": "Exit",
+      "length": 5,
+      "slope": 0,
+      "width": 2,
+      "stairs": true
+    },
+    {
+      "id": "a",
+      "source": "Entry",
+      "target": "Lift",
+      "length": 8,
+      "slope": 0.01,
+      "width": 1.2,
+      "stairs": false
+    },
+    {
+      "id": "b",
+      "source": "Lift",
+      "target": "Exit",
+      "length": 9,
+      "slope": 0.01,
+      "width": 1.2,
+      "stairs": false
+    },
+    {
+      "id": "c",
+      "source": "Entry",
+      "target": "Ramp",
+      "length": 6,
+      "slope": 0.12,
+      "width": 1.4,
+      "stairs": false
+    },
+    {
+      "id": "d",
+      "source": "Ramp",
+      "target": "Exit",
+      "length": 6,
+      "slope": 0.03,
+      "width": 1.4,
+      "stairs": false
+    }
+  ],
+  "start": "Entry",
+  "goal": "Exit",
+  "max_slope": 0.08,
+  "min_width": 0.9
+}

@@ -1,0 +1,15 @@
+MedTrace: Synthetic FHIR Bundle Preflight
+
+Can a small preflight catch duplicate identities and unresolved references before a synthetic bundle enters a pipeline?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The synthetic two-entry fixture passes the subset and resolves one reference. Tests intentionally introduce duplicate fullUrls, duplicate resource identities, an unresolved subject, a missing status, and an unsupported resource type. A URN reference is also checked for successful local resolution.
+
+Engineering judgment: This is not a full FHIR validator, server, terminology service, conformance statement, privacy control, or clinical-quality check. The simplified fullUrl and ID rules are narrower than the complete specification, and many required semantic constraints are outside scope. No real patient records are used.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/15-medtrace
+
+#Engineering #SystemsEngineering #ProjectPhoenix

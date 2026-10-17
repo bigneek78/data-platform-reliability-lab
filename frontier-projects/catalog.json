@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "01-aisleguard",
+    "title": "AisleGuard: Robot Route Replanning",
+    "domain": "Robotics",
+    "language": "C++17 + Python",
+    "question": "How can a simulated warehouse robot find a short route after an aisle closes?",
+    "algorithm": "Manhattan-heuristic A* with a second plan after a map update"
+  },
+  {
+    "slug": "02-fleetcell",
+    "title": "FleetCell: Capability-Aware Robot Assignment",
+    "domain": "Robotics",
+    "language": "Python",
+    "question": "Which robot should take each task when capabilities and travel costs conflict?",
+    "algorithm": "Exact subset dynamic programming for minimum-cost one-to-one task assignment"
+  },
+  {
+    "slug": "03-gripsense",
+    "title": "GripSense: Motor Telemetry Change Detection",
+    "domain": "Robotics",
+    "language": "Python",
+    "question": "Can an inexpensive detector flag a sustained change without learning the fault as normal?",
+    "algorithm": "EWMA residual detector with a calibration window and frozen baseline on flagged readings"
+  },
+  {
+    "slug": "04-edgebrake",
+    "title": "EdgeBrake: Latched Robot Watchdog Simulation",
+    "domain": "Robotics",
+    "language": "C11 + Python",
+    "question": "When should a host-side simulator latch a stop after stale telemetry or an emergency-stop event?",
+    "algorithm": "Deterministic state machine with freshness checks and explicit healthy reset"
+  },
+  {
+    "slug": "05-routerelay",
+    "title": "RouteRelay: Road Closure Routing",
+    "domain": "Transportation",
+    "language": "JavaScript + Python",
+    "question": "Which route remains available when a road segment closes?",
+    "algorithm": "Dijkstra shortest paths on a directed graph with excluded edge identifiers"
+  },
+  {
+    "slug": "06-chargewise",
+    "title": "ChargeWise: Deadline-Aware EV Charging",
+    "domain": "Transportation and energy",
+    "language": "Python",
+    "question": "How can a shared charging site deliver energy before departure while favoring lower-cost hours?",
+    "algorithm": "Integral minimum-cost maximum flow with vehicle, hourly-rate, and site-capacity constraints"
+  },
+  {
+    "slug": "07-transitpulse",
+    "title": "TransitPulse: Bus Headway Holding Simulation",
+    "domain": "Transportation",
+    "language": "Java 17 + Python",
+    "question": "Can bounded holding reduce departure bunching without hiding passenger delay?",
+    "algorithm": "Bounded terminal holding policy with before/after headway error and total hold time"
+  },
+  {
+    "slug": "08-accesspath",
+    "title": "AccessPath: Constraint-Aware Walking Routes",
+    "domain": "Accessible transportation",
+    "language": "Python",
+    "question": "Which synthetic walking route meets a stated width and slope constraint while avoiding stairs?",
+    "algorithm": "Filtered directed-graph shortest path with explicit rejected-edge reasons"
+  },
+  {
+    "slug": "09-gridisland",
+    "title": "GridIsland: Reserve-Constrained Microgrid Dispatch",
+    "domain": "Energy",
+    "language": "Python",
+    "question": "When should an idealized battery charge or discharge while retaining a stated reserve?",
+    "algorithm": "Discrete-state dynamic programming with power limits, energy balance, and terminal reserve"
+  },
+  {
+    "slug": "10-waterwatch",
+    "title": "WaterWatch: Pressure Anomaly Review",
+    "domain": "Water infrastructure",
+    "language": "Python",
+    "question": "Which synthetic pressure readings deserve review when sensors can be missing or unusually noisy?",
+    "algorithm": "Median absolute deviation detector with a measurement-resolution floor and explicit UNKNOWN states"
+  },
+  {
+    "slug": "11-heathaven",
+    "title": "HeatHaven: Cooling-Center Coverage Planning",
+    "domain": "Community infrastructure",
+    "language": "Python",
+    "question": "Which small set of candidate cooling centers covers the most synthetic neighborhood demand?",
+    "algorithm": "Exact budgeted maximum coverage with a greedy comparison and transparent uncovered demand"
+  },
+  {
+    "slug": "12-foodbridge",
+    "title": "FoodBridge: Perishable Inventory Allocation",
+    "domain": "Food systems",
+    "language": "SQL + Python",
+    "question": "Can a food-rescue desk fulfill timed requests while keeping expired lots out of allocations?",
+    "algorithm": "Transactional SQLite first-expiring-first-out allocation using parameterized queries"
+  },
+  {
+    "slug": "13-careslot",
+    "title": "CareSlot: Clinic Resource Scheduling",
+    "domain": "Healthcare operations",
+    "language": "Python",
+    "question": "Can an appointment desk book more requests when available resources differ by slot?",
+    "algorithm": "Exact subset dynamic programming maximizing bookings before minimizing total wait"
+  },
+  {
+    "slug": "14-coldguard",
+    "title": "ColdGuard: Cold-Chain Evidence Review",
+    "domain": "Healthcare logistics",
+    "language": "Python + XML",
+    "question": "How much logged time is outside an illustrative storage band, and where is the evidence incomplete?",
+    "algorithm": "Left-sample interval integration with separate excursion and unknown-duration ledgers"
+  },
+  {
+    "slug": "15-medtrace",
+    "title": "MedTrace: Synthetic FHIR Bundle Preflight",
+    "domain": "Healthcare data engineering",
+    "language": "Python + JSON",
+    "question": "Can a small preflight catch duplicate identities and unresolved references before a synthetic bundle enters a pipeline?",
+    "algorithm": "Restricted FHIR R4 collection-bundle identity and local-reference validation"
+  },
+  {
+    "slug": "16-rescuemesh",
+    "title": "RescueMesh: Offline Message Queue Simulation",
+    "domain": "Resilient communications",
+    "language": "TypeScript + Python",
+    "question": "Can a disconnected field queue retry messages without duplicating acknowledged delivery?",
+    "algorithm": "Deterministic event-driven queue with acknowledgements, retry delay, and absolute TTL expiry"
+  },
+  {
+    "slug": "17-groundedbrief",
+    "title": "GroundedBrief: Retrieval With Evidence and Abstention",
+    "domain": "AI systems",
+    "language": "Python",
+    "question": "Can a support assistant retrieve a relevant passage and refuse a query with insufficient evidence?",
+    "algorithm": "Local TF-IDF cosine retrieval with a relevance threshold and verbatim evidence extraction"
+  },
+  {
+    "slug": "18-maintenance-ml",
+    "title": "MaintenanceML: Synthetic Failure Classifier and Drift Review",
+    "domain": "Machine learning",
+    "language": "Python",
+    "question": "Can a small classifier show its holdout results and reveal a shifted operating population?",
+    "algorithm": "Logistic regression trained from scratch, train-only standardization, holdout confusion matrix, and standardized mean-shift monitoring"
+  },
+  {
+    "slug": "19-releaseproof",
+    "title": "ReleaseProof: Artifact and Test Evidence Gate",
+    "domain": "Software supply chain",
+    "language": "TypeScript + Python",
+    "question": "Should an illustrative release proceed when artifact digests and test records disagree?",
+    "algorithm": "SHA-256 verification, bounded local paths, commit binding, evidence age checks, and fail-closed test accounting"
+  },
+  {
+    "slug": "20-orbitwindow",
+    "title": "OrbitWindow: Synthetic Ground-Station Scheduling",
+    "domain": "Space systems planning",
+    "language": "Python",
+    "question": "Which nonoverlapping synthetic contact opportunities maximize mission value around antenna blackouts?",
+    "algorithm": "Weighted interval scheduling with half-open time intervals, blackout exclusion, and an exact dynamic program"
+  }
+]

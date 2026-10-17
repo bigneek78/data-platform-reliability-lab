@@ -1,0 +1,9 @@
+{
+  "name": "FoodBridge",
+  "nodes": [
+    "Lot ledger",
+    "Eligibility query",
+    "FEFO transaction",
+    "Allocation audit"
+  ]
+}

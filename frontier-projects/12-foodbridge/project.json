@@ -1,0 +1,8 @@
+{
+  "slug": "12-foodbridge",
+  "title": "FoodBridge: Perishable Inventory Allocation",
+  "domain": "Food systems",
+  "language": "SQL + Python",
+  "question": "Can a food-rescue desk fulfill timed requests while keeping expired lots out of allocations?",
+  "algorithm": "Transactional SQLite first-expiring-first-out allocation using parameterized queries"
+}

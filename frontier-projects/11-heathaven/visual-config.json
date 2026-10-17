@@ -1,0 +1,9 @@
+{
+  "name": "HeatHaven",
+  "nodes": [
+    "Aggregate areas",
+    "Candidate coverage",
+    "Exact budget search",
+    "Uncovered demand"
+  ]
+}

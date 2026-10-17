@@ -1,0 +1,51 @@
+{
+  "retry": 3,
+  "events": [
+    {
+      "time": 0,
+      "op": "enqueue",
+      "id": "M1",
+      "ttl": 12,
+      "body": "Synthetic supply request"
+    },
+    {
+      "time": 1,
+      "op": "tick",
+      "online": false
+    },
+    {
+      "time": 2,
+      "op": "enqueue",
+      "id": "M2",
+      "ttl": 3,
+      "body": "Synthetic status"
+    },
+    {
+      "time": 3,
+      "op": "tick",
+      "online": true
+    },
+    {
+      "time": 4,
+      "op": "ack",
+      "id": "M1"
+    },
+    {
+      "time": 5,
+      "op": "tick",
+      "online": true
+    },
+    {
+      "time": 6,
+      "op": "enqueue",
+      "id": "M1",
+      "ttl": 12,
+      "body": "Synthetic supply request"
+    },
+    {
+      "time": 9,
+      "op": "tick",
+      "online": true
+    }
+  ]
+}

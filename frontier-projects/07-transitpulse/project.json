@@ -1,0 +1,8 @@
+{
+  "slug": "07-transitpulse",
+  "title": "TransitPulse: Bus Headway Holding Simulation",
+  "domain": "Transportation",
+  "language": "Java 17 + Python",
+  "question": "Can bounded holding reduce departure bunching without hiding passenger delay?",
+  "algorithm": "Bounded terminal holding policy with before/after headway error and total hold time"
+}

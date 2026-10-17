@@ -1,0 +1,8 @@
+{
+  "slug": "10-waterwatch",
+  "title": "WaterWatch: Pressure Anomaly Review",
+  "domain": "Water infrastructure",
+  "language": "Python",
+  "question": "Which synthetic pressure readings deserve review when sensors can be missing or unusually noisy?",
+  "algorithm": "Median absolute deviation detector with a measurement-resolution floor and explicit UNKNOWN states"
+}

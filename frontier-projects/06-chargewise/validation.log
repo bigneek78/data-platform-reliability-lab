@@ -1,0 +1,13 @@
+test_availability (test_project.Tests.test_availability) ... ok
+test_cheapest_slot (test_project.Tests.test_cheapest_slot) ... ok
+test_energy_conservation (test_project.Tests.test_energy_conservation) ... ok
+test_fractional_energy_rejected (test_project.Tests.test_fractional_energy_rejected) ... ok
+test_invalid_deadline (test_project.Tests.test_invalid_deadline) ... ok
+test_residual_reassignment (test_project.Tests.test_residual_reassignment) ... ok
+test_site_capacity (test_project.Tests.test_site_capacity) ... ok
+test_unmet_explicit (test_project.Tests.test_unmet_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

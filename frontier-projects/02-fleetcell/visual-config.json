@@ -1,0 +1,9 @@
+{
+  "name": "FleetCell",
+  "nodes": [
+    "Robot capabilities",
+    "Cost model",
+    "Exact assignment",
+    "Task ledger"
+  ]
+}

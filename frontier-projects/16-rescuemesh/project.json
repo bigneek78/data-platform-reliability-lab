@@ -1,0 +1,8 @@
+{
+  "slug": "16-rescuemesh",
+  "title": "RescueMesh: Offline Message Queue Simulation",
+  "domain": "Resilient communications",
+  "language": "TypeScript + Python",
+  "question": "Can a disconnected field queue retry messages without duplicating acknowledged delivery?",
+  "algorithm": "Deterministic event-driven queue with acknowledgements, retry delay, and absolute TTL expiry"
+}

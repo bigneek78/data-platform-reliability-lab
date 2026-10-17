@@ -1,0 +1,8 @@
+{
+  "slug": "09-gridisland",
+  "title": "GridIsland: Reserve-Constrained Microgrid Dispatch",
+  "domain": "Energy",
+  "language": "Python",
+  "question": "When should an idealized battery charge or discharge while retaining a stated reserve?",
+  "algorithm": "Discrete-state dynamic programming with power limits, energy balance, and terminal reserve"
+}

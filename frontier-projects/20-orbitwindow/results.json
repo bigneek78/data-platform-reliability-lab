@@ -1,0 +1,38 @@
+{
+  "selected": [
+    "SAT-A",
+    "SAT-C",
+    "SAT-F"
+  ],
+  "excluded_by_blackout": [
+    "SAT-D",
+    "SAT-E"
+  ],
+  "metrics": {
+    "total_value": 18,
+    "selected_contacts": 3,
+    "selected_minutes": 19,
+    "blackout_excluded": 2
+  },
+  "trace": [
+    {
+      "id": "SAT-A",
+      "start": 0,
+      "end": 8,
+      "value": 6
+    },
+    {
+      "id": "SAT-C",
+      "start": 8,
+      "end": 14,
+      "value": 7
+    },
+    {
+      "id": "SAT-F",
+      "start": 25,
+      "end": 30,
+      "value": 5
+    }
+  ],
+  "scope": "Fictional opportunities; no orbit propagation, link budget, flight qualification, or live satellite commands."
+}

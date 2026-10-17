@@ -1,0 +1,140 @@
+{
+  "alerts": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "metrics": {
+    "flagged_samples": 4,
+    "reviewed_samples": 10
+  },
+  "trace": [
+    {
+      "sample": 0,
+      "value": 10,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": 0.0
+    },
+    {
+      "sample": 1,
+      "value": 10.2,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": 0.1999999999999993
+    },
+    {
+      "sample": 2,
+      "value": 9.8,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": -0.1999999999999993
+    },
+    {
+      "sample": 3,
+      "value": 10.1,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": 0.09999999999999964
+    },
+    {
+      "sample": 4,
+      "value": 9.9,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": -0.09999999999999964
+    },
+    {
+      "sample": 5,
+      "value": 10,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": 0.0
+    },
+    {
+      "sample": 6,
+      "value": 10.1,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": 0.09999999999999964
+    },
+    {
+      "sample": 7,
+      "value": 9.9,
+      "baseline": 10.0,
+      "flag": false,
+      "residual": -0.09999999999999964
+    },
+    {
+      "sample": 8,
+      "value": 10.2,
+      "baseline": 10.04,
+      "flag": false,
+      "residual": 0.1999999999999993
+    },
+    {
+      "sample": 9,
+      "value": 10,
+      "baseline": 10.032,
+      "flag": false,
+      "residual": -0.03999999999999915
+    },
+    {
+      "sample": 10,
+      "value": 10.1,
+      "baseline": 10.0456,
+      "flag": false,
+      "residual": 0.06799999999999962
+    },
+    {
+      "sample": 11,
+      "value": 10.3,
+      "baseline": 10.096480000000001,
+      "flag": false,
+      "residual": 0.2544000000000004
+    },
+    {
+      "sample": 12,
+      "value": 16,
+      "baseline": 10.096480000000001,
+      "flag": true,
+      "residual": 5.9035199999999985
+    },
+    {
+      "sample": 13,
+      "value": 17,
+      "baseline": 10.096480000000001,
+      "flag": true,
+      "residual": 6.9035199999999985
+    },
+    {
+      "sample": 14,
+      "value": 18,
+      "baseline": 10.096480000000001,
+      "flag": true,
+      "residual": 7.9035199999999985
+    },
+    {
+      "sample": 15,
+      "value": 17,
+      "baseline": 10.096480000000001,
+      "flag": true,
+      "residual": 6.9035199999999985
+    },
+    {
+      "sample": 16,
+      "value": 10.2,
+      "baseline": 10.117184000000002,
+      "flag": false,
+      "residual": 0.10351999999999784
+    },
+    {
+      "sample": 17,
+      "value": 10.1,
+      "baseline": 10.1137472,
+      "flag": false,
+      "residual": -0.017184000000002086
+    }
+  ]
+}

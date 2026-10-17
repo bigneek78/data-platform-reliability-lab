@@ -1,0 +1,9 @@
+{
+  "name": "AisleGuard",
+  "nodes": [
+    "Occupancy grid",
+    "A-star planner",
+    "Closure update",
+    "Route trace"
+  ]
+}

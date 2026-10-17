@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "id": "RB-01",
+      "text": "The synthetic backup service retains seven daily restore points. Operators run a monthly restore drill in the isolated lab."
+    },
+    {
+      "id": "RB-02",
+      "text": "The simulated charger pauses energy delivery when site capacity reaches its configured limit."
+    },
+    {
+      "id": "RB-03",
+      "text": "The test robot waits for a healthy reset after stale telemetry triggers a latched stop."
+    }
+  ],
+  "query": "How often is the backup restore drill run?",
+  "threshold": 0.15
+}

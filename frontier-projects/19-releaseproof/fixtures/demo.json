@@ -1,0 +1,19 @@
+{
+  "base": "fixtures",
+  "commit": "demo-commit-001",
+  "now": 1000,
+  "max_age": 100,
+  "artifacts": [
+    {
+      "path": "artifact.txt",
+      "sha256": "cdf6ca059af2ac835f3ef8d6856c4adda76bd6f6850b27cd5708a37eb5125da7"
+    }
+  ],
+  "test_record": {
+    "commit": "demo-commit-001",
+    "time": 950,
+    "total": 8,
+    "passed": 8,
+    "failed": 0
+  }
+}

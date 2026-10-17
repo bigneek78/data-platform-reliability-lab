@@ -1,0 +1,8 @@
+{
+  "slug": "05-routerelay",
+  "title": "RouteRelay: Road Closure Routing",
+  "domain": "Transportation",
+  "language": "JavaScript + Python",
+  "question": "Which route remains available when a road segment closes?",
+  "algorithm": "Dijkstra shortest paths on a directed graph with excluded edge identifiers"
+}

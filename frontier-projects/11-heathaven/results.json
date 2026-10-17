@@ -1,0 +1,41 @@
+{
+  "selected_centers": [
+    "North",
+    "East"
+  ],
+  "uncovered_areas": [
+    "E"
+  ],
+  "metrics": {
+    "covered_demand": 110,
+    "total_demand": 125,
+    "greedy_covered_demand": 110
+  },
+  "trace": [
+    {
+      "area": "A",
+      "weight": 20,
+      "covered": true
+    },
+    {
+      "area": "B",
+      "weight": 35,
+      "covered": true
+    },
+    {
+      "area": "C",
+      "weight": 25,
+      "covered": true
+    },
+    {
+      "area": "D",
+      "weight": 30,
+      "covered": true
+    },
+    {
+      "area": "E",
+      "weight": 15,
+      "covered": false
+    }
+  ]
+}

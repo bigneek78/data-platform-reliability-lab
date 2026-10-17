@@ -1,0 +1,13 @@
+test_abstains_unknown (test_project.Tests.test_abstains_unknown) ... ok
+test_correct_source (test_project.Tests.test_correct_source) ... ok
+test_deterministic (test_project.Tests.test_deterministic) ... ok
+test_duplicate_sources (test_project.Tests.test_duplicate_sources) ... ok
+test_empty_query_abstains (test_project.Tests.test_empty_query_abstains) ... ok
+test_quote_is_original_span (test_project.Tests.test_quote_is_original_span) ... ok
+test_similarity_bounds (test_project.Tests.test_similarity_bounds) ... ok
+test_threshold_invalid (test_project.Tests.test_threshold_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

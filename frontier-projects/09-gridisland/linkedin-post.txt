@@ -1,0 +1,15 @@
+GridIsland: Reserve-Constrained Microgrid Dispatch
+
+When should an idealized battery charge or discharge while retaining a stated reserve?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The fixture dispatch costs 36 units versus 57 with no battery operation, and ends at state of charge 2. Tests verify each energy-balance equation, reserve and rate bounds, terminal state, a tiny independently known optimum, and explicit failure when grid limits make service impossible.
+
+Engineering judgment: The model assumes ideal 100-percent battery efficiency. It excludes degradation, conversion losses, forecasts, ramping limits, outages, and power-flow constraints. The cost difference is an algorithm demonstration, not a forecast of a real site savings or a purchasing recommendation.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/09-gridisland
+
+#Engineering #SystemsEngineering #ProjectPhoenix

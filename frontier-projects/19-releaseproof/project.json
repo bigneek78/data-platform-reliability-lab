@@ -1,0 +1,8 @@
+{
+  "slug": "19-releaseproof",
+  "title": "ReleaseProof: Artifact and Test Evidence Gate",
+  "domain": "Software supply chain",
+  "language": "TypeScript + Python",
+  "question": "Should an illustrative release proceed when artifact digests and test records disagree?",
+  "algorithm": "SHA-256 verification, bounded local paths, commit binding, evidence age checks, and fail-closed test accounting"
+}

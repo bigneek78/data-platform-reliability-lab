@@ -1,0 +1,49 @@
+{
+  "robots": [
+    {
+      "id": "R1",
+      "x": 0,
+      "y": 0,
+      "skills": [
+        "lift",
+        "inspect"
+      ]
+    },
+    {
+      "id": "R2",
+      "x": 2,
+      "y": 0,
+      "skills": [
+        "lift"
+      ]
+    },
+    {
+      "id": "R3",
+      "x": 8,
+      "y": 4,
+      "skills": [
+        "inspect"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "J1",
+      "x": 1,
+      "y": 0,
+      "skill": "lift"
+    },
+    {
+      "id": "J2",
+      "x": 0,
+      "y": 1,
+      "skill": "inspect"
+    },
+    {
+      "id": "J3",
+      "x": 7,
+      "y": 4,
+      "skill": "inspect"
+    }
+  ]
+}

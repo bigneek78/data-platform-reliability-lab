@@ -1,0 +1,9 @@
+{
+  "name": "GridIsland",
+  "nodes": [
+    "Demand and solar",
+    "Battery states",
+    "Reserve-constrained DP",
+    "Dispatch ledger"
+  ]
+}

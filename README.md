@@ -1,4 +1,11 @@
 # Data Platform Reliability & Support Engineering Lab
+
+## Project Phoenix — 20 separate frontier engineering projects
+
+[Explore the new twenty-project portfolio](frontier-projects/) for robotics, transportation, energy, healthcare operations, resilient communications, AI, release evidence, and space-systems scheduling.
+
+Each project runs independently and contains source code, a synthetic fixture, eight tests, recorded results, an individual article, an architecture diagram, a chart, and an animated trace. **All 20 demos and 160 new tests passed locally on Linux.** AI assistance and prototype limits are disclosed in every project. These are additional projects alongside the earlier fifteen samples.
+
 ## Project Phoenix — 15 engineering work samples
 
 [Explore the complete collection](phoenix-engineering-labs/) for executable examples in support operations, Windows and Active Directory, RHEL maintenance, security evidence, Terraform review, Kubernetes reliability, recovery verification, and incident communication.

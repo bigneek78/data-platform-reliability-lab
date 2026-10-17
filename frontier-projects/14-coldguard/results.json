@@ -1,0 +1,48 @@
+{
+  "status": "HOLD_FOR_REVIEW",
+  "metrics": {
+    "outside_minutes": 5,
+    "unknown_minutes": 10,
+    "within_minutes": 15,
+    "elapsed_minutes": 30
+  },
+  "trace": [
+    {
+      "from": 0,
+      "to": 5,
+      "duration": 5,
+      "state": "WITHIN_BAND"
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "duration": 5,
+      "state": "WITHIN_BAND"
+    },
+    {
+      "from": 10,
+      "to": 15,
+      "duration": 5,
+      "state": "EXCURSION"
+    },
+    {
+      "from": 15,
+      "to": 20,
+      "duration": 5,
+      "state": "UNKNOWN"
+    },
+    {
+      "from": 20,
+      "to": 25,
+      "duration": 5,
+      "state": "UNKNOWN"
+    },
+    {
+      "from": 25,
+      "to": 30,
+      "duration": 5,
+      "state": "WITHIN_BAND"
+    }
+  ],
+  "policy_note": "Illustrative synthetic band; not a product release or medical disposition rule."
+}

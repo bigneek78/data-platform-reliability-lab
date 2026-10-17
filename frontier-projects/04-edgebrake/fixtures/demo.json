@@ -1,0 +1,41 @@
+{
+  "max_age": 2,
+  "events": [
+    {
+      "time": 0,
+      "age": 0,
+      "estop": false,
+      "reset": false
+    },
+    {
+      "time": 1,
+      "age": 1,
+      "estop": false,
+      "reset": false
+    },
+    {
+      "time": 3,
+      "age": 3,
+      "estop": false,
+      "reset": false
+    },
+    {
+      "time": 4,
+      "age": 0,
+      "estop": false,
+      "reset": false
+    },
+    {
+      "time": 5,
+      "age": 0,
+      "estop": true,
+      "reset": true
+    },
+    {
+      "time": 6,
+      "age": 0,
+      "estop": false,
+      "reset": true
+    }
+  ]
+}

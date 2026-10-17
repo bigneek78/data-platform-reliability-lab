@@ -1,0 +1,13 @@
+test_acknowledged_once (test_project.Tests.test_acknowledged_once) ... ok
+test_duplicate_suppression (test_project.Tests.test_duplicate_suppression) ... ok
+test_exact_expiry (test_project.Tests.test_exact_expiry) ... ok
+test_expiry (test_project.Tests.test_expiry) ... ok
+test_negative_ttl (test_project.Tests.test_negative_ttl) ... ok
+test_no_offline_send (test_project.Tests.test_no_offline_send) ... ok
+test_retry_interval (test_project.Tests.test_retry_interval) ... ok
+test_unknown_ack_not_delivered (test_project.Tests.test_unknown_ack_not_delivered) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.665s
+
+OK

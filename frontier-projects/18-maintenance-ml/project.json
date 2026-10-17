@@ -1,0 +1,8 @@
+{
+  "slug": "18-maintenance-ml",
+  "title": "MaintenanceML: Synthetic Failure Classifier and Drift Review",
+  "domain": "Machine learning",
+  "language": "Python",
+  "question": "Can a small classifier show its holdout results and reveal a shifted operating population?",
+  "algorithm": "Logistic regression trained from scratch, train-only standardization, holdout confusion matrix, and standardized mean-shift monitoring"
+}

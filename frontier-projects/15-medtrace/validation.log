@@ -1,0 +1,13 @@
+test_duplicate_fullurl (test_project.Tests.test_duplicate_fullurl) ... ok
+test_duplicate_resource (test_project.Tests.test_duplicate_resource) ... ok
+test_missing_status (test_project.Tests.test_missing_status) ... ok
+test_non_collection_rejected (test_project.Tests.test_non_collection_rejected) ... ok
+test_unresolved_reference (test_project.Tests.test_unresolved_reference) ... ok
+test_unsupported_type (test_project.Tests.test_unsupported_type) ... ok
+test_urn_resolution (test_project.Tests.test_urn_resolution) ... ok
+test_valid_subset (test_project.Tests.test_valid_subset) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

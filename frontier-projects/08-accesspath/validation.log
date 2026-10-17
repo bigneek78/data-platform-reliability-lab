@@ -1,0 +1,13 @@
+test_cost (test_project.Tests.test_cost) ... ok
+test_exclusion_reasons (test_project.Tests.test_exclusion_reasons) ... ok
+test_expected_route (test_project.Tests.test_expected_route) ... ok
+test_negative_length (test_project.Tests.test_negative_length) ... ok
+test_slope_boundary (test_project.Tests.test_slope_boundary) ... ok
+test_strict_width_no_route (test_project.Tests.test_strict_width_no_route) ... ok
+test_unknown_node (test_project.Tests.test_unknown_node) ... ok
+test_width_boundary (test_project.Tests.test_width_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

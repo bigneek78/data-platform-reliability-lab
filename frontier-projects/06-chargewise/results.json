@@ -1,0 +1,50 @@
+{
+  "schedule": [
+    {
+      "vehicle": "EV-A",
+      "hour": 0,
+      "kwh": 1
+    },
+    {
+      "vehicle": "EV-A",
+      "hour": 1,
+      "kwh": 1
+    },
+    {
+      "vehicle": "EV-A",
+      "hour": 2,
+      "kwh": 2
+    },
+    {
+      "vehicle": "EV-B",
+      "hour": 1,
+      "kwh": 2
+    },
+    {
+      "vehicle": "EV-B",
+      "hour": 2,
+      "kwh": 1
+    },
+    {
+      "vehicle": "EV-C",
+      "hour": 0,
+      "kwh": 2
+    }
+  ],
+  "unmet_by_vehicle": {
+    "EV-A": 0,
+    "EV-B": 0,
+    "EV-C": 0
+  },
+  "metrics": {
+    "delivered_kwh": 9,
+    "unmet_kwh": 0,
+    "cost_units": 39
+  },
+  "trace": [
+    3,
+    3,
+    3,
+    0
+  ]
+}

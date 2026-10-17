@@ -1,0 +1,29 @@
+{
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "fullUrl": "urn:uuid:123e4567-e89b-12d3-a456-426614174001",
+        "resource": {
+          "resourceType": "Patient",
+          "id": "p-demo"
+        }
+      },
+      {
+        "fullUrl": "urn:uuid:123e4567-e89b-12d3-a456-426614174002",
+        "resource": {
+          "resourceType": "Observation",
+          "id": "o-demo",
+          "status": "final",
+          "code": {
+            "text": "Synthetic device reading"
+          },
+          "subject": {
+            "reference": "urn:uuid:123e4567-e89b-12d3-a456-426614174001"
+          }
+        }
+      }
+    ]
+  }
+}

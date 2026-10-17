@@ -1,0 +1,13 @@
+test_capabilities (test_project.Tests.test_capabilities) ... ok
+test_duplicate (test_project.Tests.test_duplicate) ... ok
+test_empty (test_project.Tests.test_empty) ... ok
+test_exhaustive_reference (test_project.Tests.test_exhaustive_reference) ... ok
+test_infeasible (test_project.Tests.test_infeasible) ... ok
+test_nonfinite (test_project.Tests.test_nonfinite) ... ok
+test_one_robot_per_job (test_project.Tests.test_one_robot_per_job) ... ok
+test_optimum (test_project.Tests.test_optimum) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

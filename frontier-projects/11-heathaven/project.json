@@ -1,0 +1,8 @@
+{
+  "slug": "11-heathaven",
+  "title": "HeatHaven: Cooling-Center Coverage Planning",
+  "domain": "Community infrastructure",
+  "language": "Python",
+  "question": "Which small set of candidate cooling centers covers the most synthetic neighborhood demand?",
+  "algorithm": "Exact budgeted maximum coverage with a greedy comparison and transparent uncovered demand"
+}

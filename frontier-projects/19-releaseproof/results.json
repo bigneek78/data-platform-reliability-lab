@@ -1,0 +1,16 @@
+{
+  "eligible": true,
+  "findings": [],
+  "metrics": {
+    "checked_artifacts": 1,
+    "findings": 0,
+    "claimed_tests": 8
+  },
+  "trace": [
+    {
+      "artifact": "artifact.txt",
+      "hash_match": true
+    }
+  ],
+  "scope": "Local digest and record checks; not a signed provenance verifier."
+}

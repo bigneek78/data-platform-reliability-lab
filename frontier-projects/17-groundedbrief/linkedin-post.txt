@@ -1,0 +1,15 @@
+GroundedBrief: Retrieval With Evidence and Abstention
+
+Can a support assistant retrieve a relevant passage and refuse a query with insufficient evidence?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The restore-drill question selects RB-01 with a top similarity of approximately 0.496. The quoted answer is asserted to be an exact span of the selected source. An unrelated geology query and an empty query both abstain. No generative model or remote model API is called.
+
+Engineering judgment: Lexical relevance is not a guarantee of factual support or completeness. The threshold is illustrative, the corpus is tiny, and synonymous wording can be missed. A passage containing misleading content would still require source governance; the implementation is not a prompt-injection defense or a semantic entailment engine.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/17-groundedbrief
+
+#Engineering #SystemsEngineering #ProjectPhoenix

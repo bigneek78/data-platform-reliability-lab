@@ -1,0 +1,9 @@
+{
+  "name": "ChargeWise",
+  "nodes": [
+    "Vehicle windows",
+    "Residual network",
+    "Site capacities",
+    "Charging schedule"
+  ]
+}

@@ -1,0 +1,15 @@
+MaintenanceML: Synthetic Failure Classifier and Drift Review
+
+Can a small classifier show its holdout results and reveal a shifted operating population?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The fixture uses 240 training rows and 80 holdout rows, with 0.9875 holdout accuracy on this generated problem. Training log loss falls from about 0.693 to 0.196. The synthetic population shift triggers a review flag. Tests verify deterministic reproduction, scaling arithmetic, split accounting, and loss reduction.
+
+Engineering judgment: The labels were generated from the same simple feature relationship the classifier can learn. The score therefore demonstrates implementation behavior, not effectiveness at predicting real failures. There is no external validation set, real maintenance label review, calibration study, or deployment claim.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/18-maintenance-ml
+
+#Engineering #SystemsEngineering #ProjectPhoenix

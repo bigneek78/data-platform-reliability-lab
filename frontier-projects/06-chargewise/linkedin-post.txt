@@ -1,0 +1,15 @@
+ChargeWise: Deadline-Aware EV Charging
+
+How can a shared charging site deliver energy before departure while favoring lower-cost hours?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The demonstration delivers all 9 requested kWh at a cost of 39 fixture units, with no unmet vehicle demand. Tests verify conservation, per-hour capacity, vehicle availability, rate bounds, an infeasible zero-capacity case, and a counterexample that requires residual reassignment.
+
+Engineering judgment: Each slot is one hour and energy is quantized to whole kWh. Prices are synthetic cost units. The prototype excludes conversion losses, demand charges, battery health, charger failures, and electrical protection. It produces a plan, not charger commands.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/06-chargewise
+
+#Engineering #SystemsEngineering #ProjectPhoenix

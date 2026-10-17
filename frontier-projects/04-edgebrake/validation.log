@@ -1,0 +1,13 @@
+test_bool_controls (test_project.Tests.test_bool_controls) ... ok
+test_empty (test_project.Tests.test_empty) ... ok
+test_exact_age (test_project.Tests.test_exact_age) ... ok
+test_healthy_reset (test_project.Tests.test_healthy_reset) ... ok
+test_latch (test_project.Tests.test_latch) ... ok
+test_negative_age (test_project.Tests.test_negative_age) ... ok
+test_stale_reset_rejected (test_project.Tests.test_stale_reset_rejected) ... ok
+test_time_reversal (test_project.Tests.test_time_reversal) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.044s
+
+OK

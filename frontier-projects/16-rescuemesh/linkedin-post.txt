@@ -1,0 +1,15 @@
+RescueMesh: Offline Message Queue Simulation
+
+Can a disconnected field queue retry messages without duplicating acknowledged delivery?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The fixture records two send attempts, one acknowledged message, one expired message, and one duplicate enqueue. Tests cover offline ticks, exact expiry, retry spacing, and an acknowledgement for an unknown identity. The timeline makes each state change inspectable.
+
+Engineering judgment: The simulation is in memory; it is not a durable delivery service or an emergency dispatch channel. Duplicate suppression is local to this process lifetime and does not prove exactly-once processing at a remote receiver. Payload authentication, encryption, disk recovery, and multi-device ordering remain unimplemented.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/16-rescuemesh
+
+#Engineering #SystemsEngineering #ProjectPhoenix

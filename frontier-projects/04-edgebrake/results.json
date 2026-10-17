@@ -1,0 +1,38 @@
+{
+  "trace": [
+    {
+      "time": 0,
+      "state": "READY",
+      "age": 0
+    },
+    {
+      "time": 1,
+      "state": "READY",
+      "age": 1
+    },
+    {
+      "time": 3,
+      "state": "STOP",
+      "age": 3
+    },
+    {
+      "time": 4,
+      "state": "STOP",
+      "age": 0
+    },
+    {
+      "time": 5,
+      "state": "STOP",
+      "age": 0
+    },
+    {
+      "time": 6,
+      "state": "READY",
+      "age": 0
+    }
+  ],
+  "metrics": {
+    "stopped_events": 3,
+    "ready_events": 3
+  }
+}

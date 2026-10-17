@@ -1,0 +1,6 @@
+# Configuration only; this image has not been built in this environment.
+FROM node:24-bookworm AS runtime
+RUN apt-get update && apt-get install -y --no-install-recommends python3 g++ gcc openjdk-17-jre-headless && rm -rf /var/lib/apt/lists/*
+WORKDIR /work
+COPY . /work/frontier-projects
+CMD ["python3", "frontier-projects/verify_all.py"]

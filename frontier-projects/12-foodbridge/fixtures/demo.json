@@ -1,0 +1,40 @@
+{
+  "lots": [
+    {
+      "id": "L1",
+      "available": 0,
+      "expires": 3,
+      "units": 5
+    },
+    {
+      "id": "L2",
+      "available": 0,
+      "expires": 8,
+      "units": 8
+    },
+    {
+      "id": "L3",
+      "available": 4,
+      "expires": 10,
+      "units": 4
+    }
+  ],
+  "requests": [
+    {
+      "id": "Q1",
+      "time": 1,
+      "units": 4
+    },
+    {
+      "id": "Q2",
+      "time": 3,
+      "units": 6
+    },
+    {
+      "id": "Q3",
+      "time": 5,
+      "units": 6
+    }
+  ],
+  "horizon": 10
+}

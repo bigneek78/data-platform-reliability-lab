@@ -1,0 +1,15 @@
+FleetCell: Capability-Aware Robot Assignment
+
+Which robot should take each task when capabilities and travel costs conflict?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The optimal complete allocation costs 3 distance units. The fixture-order greedy comparator cannot complete this workload, so its result is explicitly null rather than an invented numeric improvement. A permutation-based test independently checks the optimum for the demonstration.
+
+Engineering judgment: The exact method is deliberately small, with at most 16 robots. It is not a continuous fleet dispatcher and does not model battery charge, collision avoidance, task durations, or a robot taking several sequential jobs. Those omissions define the next engineering questions.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/02-fleetcell
+
+#Engineering #SystemsEngineering #ProjectPhoenix

@@ -1,0 +1,9 @@
+{
+  "name": "AccessPath",
+  "nodes": [
+    "Route constraints",
+    "Edge rejection",
+    "Shortest path",
+    "Reason ledger"
+  ]
+}

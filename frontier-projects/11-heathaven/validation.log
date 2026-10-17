@@ -1,0 +1,13 @@
+test_budget_zero (test_project.Tests.test_budget_zero) ... ok
+test_coverage (test_project.Tests.test_coverage) ... ok
+test_exact_not_worse_than_greedy (test_project.Tests.test_exact_not_worse_than_greedy) ... ok
+test_expected_selection (test_project.Tests.test_expected_selection) ... ok
+test_negative_demand (test_project.Tests.test_negative_demand) ... ok
+test_no_double_count (test_project.Tests.test_no_double_count) ... ok
+test_radius_boundary (test_project.Tests.test_radius_boundary) ... ok
+test_uncovered_explicit (test_project.Tests.test_uncovered_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

@@ -1,0 +1,13 @@
+test_empty (test_project.Tests.test_empty) ... ok
+test_expected_departures (test_project.Tests.test_expected_departures) ... ok
+test_hold_bounded (test_project.Tests.test_hold_bounded) ... ok
+test_improves_fixture_headway_error (test_project.Tests.test_improves_fixture_headway_error) ... ok
+test_invalid_target (test_project.Tests.test_invalid_target) ... ok
+test_single_bus (test_project.Tests.test_single_bus) ... ok
+test_unordered (test_project.Tests.test_unordered) ... ok
+test_zero_hold (test_project.Tests.test_zero_hold) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.026s
+
+OK

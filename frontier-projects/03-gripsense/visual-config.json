@@ -1,0 +1,9 @@
+{
+  "name": "GripSense",
+  "nodes": [
+    "Synthetic readings",
+    "Calibration mean",
+    "Frozen EWMA",
+    "Review flags"
+  ]
+}

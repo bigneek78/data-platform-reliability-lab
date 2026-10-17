@@ -1,0 +1,13 @@
+test_band_boundary (test_project.Tests.test_band_boundary) ... ok
+test_duplicate_time (test_project.Tests.test_duplicate_time) ... ok
+test_hold (test_project.Tests.test_hold) ... ok
+test_interval_conservation (test_project.Tests.test_interval_conservation) ... ok
+test_large_gap_unknown (test_project.Tests.test_large_gap_unknown) ... ok
+test_missing_intervals (test_project.Tests.test_missing_intervals) ... ok
+test_outside_duration (test_project.Tests.test_outside_duration) ... ok
+test_single_sample_insufficient (test_project.Tests.test_single_sample_insufficient) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

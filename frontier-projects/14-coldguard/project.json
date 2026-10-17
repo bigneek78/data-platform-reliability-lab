@@ -1,0 +1,8 @@
+{
+  "slug": "14-coldguard",
+  "title": "ColdGuard: Cold-Chain Evidence Review",
+  "domain": "Healthcare logistics",
+  "language": "Python + XML",
+  "question": "How much logged time is outside an illustrative storage band, and where is the evidence incomplete?",
+  "algorithm": "Left-sample interval integration with separate excursion and unknown-duration ledgers"
+}

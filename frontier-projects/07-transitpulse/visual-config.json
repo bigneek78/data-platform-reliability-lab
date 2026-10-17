@@ -1,0 +1,9 @@
+{
+  "name": "TransitPulse",
+  "nodes": [
+    "Arrival sequence",
+    "Bounded holding",
+    "Java simulation",
+    "Delay accounting"
+  ]
+}

@@ -1,0 +1,13 @@
+test_closure_detour (test_project.Tests.test_closure_detour) ... ok
+test_negative (test_project.Tests.test_negative) ... ok
+test_open_shortest (test_project.Tests.test_open_shortest) ... ok
+test_path (test_project.Tests.test_path) ... ok
+test_same_node (test_project.Tests.test_same_node) ... ok
+test_unknown_closure (test_project.Tests.test_unknown_closure) ... ok
+test_unknown_node (test_project.Tests.test_unknown_node) ... ok
+test_unreachable (test_project.Tests.test_unreachable) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.327s
+
+OK

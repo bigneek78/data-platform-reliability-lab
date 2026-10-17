@@ -1,0 +1,8 @@
+{
+  "slug": "20-orbitwindow",
+  "title": "OrbitWindow: Synthetic Ground-Station Scheduling",
+  "domain": "Space systems planning",
+  "language": "Python",
+  "question": "Which nonoverlapping synthetic contact opportunities maximize mission value around antenna blackouts?",
+  "algorithm": "Weighted interval scheduling with half-open time intervals, blackout exclusion, and an exact dynamic program"
+}

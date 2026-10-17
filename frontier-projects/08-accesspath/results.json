@@ -1,0 +1,39 @@
+{
+  "path": [
+    "Entry",
+    "Lift",
+    "Exit"
+  ],
+  "excluded": [
+    {
+      "id": "stairs",
+      "reasons": [
+        "stairs"
+      ]
+    },
+    {
+      "id": "c",
+      "reasons": [
+        "slope"
+      ]
+    }
+  ],
+  "metrics": {
+    "route_length": 17,
+    "excluded_edges": 2
+  },
+  "trace": [
+    {
+      "node": "Entry",
+      "distance": 0
+    },
+    {
+      "node": "Lift",
+      "distance": 8
+    },
+    {
+      "node": "Exit",
+      "distance": 17
+    }
+  ]
+}

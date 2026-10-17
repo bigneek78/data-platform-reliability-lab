@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "rows": 320,
+  "epochs": 350,
+  "learning_rate": 0.12,
+  "drift_shift": 2.5
+}

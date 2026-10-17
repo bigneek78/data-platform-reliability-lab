@@ -1,0 +1,9 @@
+{
+  "name": "MaintenanceML",
+  "nodes": [
+    "Synthetic generator",
+    "Train-only scaler",
+    "Logistic training",
+    "Holdout and drift"
+  ]
+}

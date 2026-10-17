@@ -1,0 +1,53 @@
+{
+  "departures": [
+    0.0,
+    10.0,
+    20.0,
+    27.0,
+    39.0,
+    49.0,
+    60.0
+  ],
+  "metrics": {
+    "arrival_headway_rmse": 6.454972243679028,
+    "departure_headway_rmse": 1.5275252316519468,
+    "total_hold_minutes": 20.0
+  },
+  "trace": [
+    {
+      "arrival": 0,
+      "departure": 0.0,
+      "hold": 0.0
+    },
+    {
+      "arrival": 4,
+      "departure": 10.0,
+      "hold": 6.0
+    },
+    {
+      "arrival": 18,
+      "departure": 20.0,
+      "hold": 2.0
+    },
+    {
+      "arrival": 21,
+      "departure": 27.0,
+      "hold": 6.0
+    },
+    {
+      "arrival": 39,
+      "departure": 39.0,
+      "hold": 0.0
+    },
+    {
+      "arrival": 43,
+      "departure": 49.0,
+      "hold": 6.0
+    },
+    {
+      "arrival": 60,
+      "departure": 60.0,
+      "hold": 0.0
+    }
+  ]
+}

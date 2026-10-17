@@ -1,0 +1,13 @@
+test_commit_mismatch_blocks (test_project.Tests.test_commit_mismatch_blocks) ... ok
+test_missing_artifact_blocks (test_project.Tests.test_missing_artifact_blocks) ... ok
+test_path_traversal_blocks (test_project.Tests.test_path_traversal_blocks) ... ok
+test_stale_or_future_blocks (test_project.Tests.test_stale_or_future_blocks) ... ok
+test_test_accounting_blocks (test_project.Tests.test_test_accounting_blocks) ... ok
+test_valid_gate (test_project.Tests.test_valid_gate) ... ok
+test_wrong_hash_blocks (test_project.Tests.test_wrong_hash_blocks) ... ok
+test_zero_tests_blocks (test_project.Tests.test_zero_tests_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.803s
+
+OK

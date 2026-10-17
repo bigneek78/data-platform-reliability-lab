@@ -1,0 +1,15 @@
+OrbitWindow: Synthetic Ground-Station Scheduling
+
+Which nonoverlapping synthetic contact opportunities maximize mission value around antenna blackouts?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+The demonstration selects SAT-A, SAT-C, and SAT-F for a total value of 18 across 19 scheduled minutes. Two opportunities are excluded by blackout overlap. An independent exhaustive subset test confirms the optimal value for the fixture, while boundary tests check a contact ending exactly at a blackout start.
+
+Engineering judgment: The input windows are invented. The code performs no orbit propagation, antenna pointing, link-budget calculation, Doppler prediction, spectrum coordination, or live spacecraft control. Value is a user-defined score rather than a guaranteed mission outcome.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/20-orbitwindow
+
+#Engineering #SystemsEngineering #ProjectPhoenix

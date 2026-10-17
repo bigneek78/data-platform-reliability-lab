@@ -1,0 +1,8 @@
+{
+  "slug": "04-edgebrake",
+  "title": "EdgeBrake: Latched Robot Watchdog Simulation",
+  "domain": "Robotics",
+  "language": "C11 + Python",
+  "question": "When should a host-side simulator latch a stop after stale telemetry or an emergency-stop event?",
+  "algorithm": "Deterministic state machine with freshness checks and explicit healthy reset"
+}

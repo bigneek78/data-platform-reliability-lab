@@ -1,0 +1,13 @@
+test_bad_interval (test_project.Tests.test_bad_interval) ... ok
+test_blackout_excludes (test_project.Tests.test_blackout_excludes) ... ok
+test_bruteforce_reference (test_project.Tests.test_bruteforce_reference) ... ok
+test_empty (test_project.Tests.test_empty) ... ok
+test_expected_contacts (test_project.Tests.test_expected_contacts) ... ok
+test_expected_optimum (test_project.Tests.test_expected_optimum) ... ok
+test_no_overlap (test_project.Tests.test_no_overlap) ... ok
+test_touching_blackout_allowed (test_project.Tests.test_touching_blackout_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

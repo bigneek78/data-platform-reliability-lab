@@ -1,0 +1,9 @@
+{
+  "name": "MedTrace",
+  "nodes": [
+    "Synthetic bundle",
+    "Identity checks",
+    "Reference resolution",
+    "Subset findings"
+  ]
+}

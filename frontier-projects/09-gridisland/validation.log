@@ -1,0 +1,13 @@
+test_balance (test_project.Tests.test_balance) ... ok
+test_cost_at_most_idle (test_project.Tests.test_cost_at_most_idle) ... ok
+test_infeasible (test_project.Tests.test_infeasible) ... ok
+test_invalid_soc (test_project.Tests.test_invalid_soc) ... ok
+test_rate (test_project.Tests.test_rate) ... ok
+test_reserve (test_project.Tests.test_reserve) ... ok
+test_terminal (test_project.Tests.test_terminal) ... ok
+test_tiny_optimum (test_project.Tests.test_tiny_optimum) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

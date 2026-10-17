@@ -1,0 +1,8 @@
+{
+  "slug": "08-accesspath",
+  "title": "AccessPath: Constraint-Aware Walking Routes",
+  "domain": "Accessible transportation",
+  "language": "Python",
+  "question": "Which synthetic walking route meets a stated width and slope constraint while avoiding stairs?",
+  "algorithm": "Filtered directed-graph shortest path with explicit rejected-edge reasons"
+}

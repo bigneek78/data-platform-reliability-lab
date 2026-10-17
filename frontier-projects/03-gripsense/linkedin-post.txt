@@ -1,0 +1,15 @@
+GripSense: Motor Telemetry Change Detection
+
+Can an inexpensive detector flag a sustained change without learning the fault as normal?
+
+I’m sharing a self-contained Project Phoenix prototype with working code, eight local tests, a reproducible synthetic fixture, an architecture diagram, and an animated execution trace.
+
+Four injected high readings are flagged, exactly at samples 12 through 15. The baseline stays fixed across that sequence, and the following ordinary readings return to an unflagged state. The published trace includes the raw value, residual, baseline, and flag at every index.
+
+Engineering judgment: This detector is a review aid for synthetic motor telemetry. It has no learned equipment-specific fault model and cannot establish root cause. A threshold that works on this fixture may miss gradual drift or generate false alerts on a different operating regime.
+
+Built with AI assistance. These are synthetic prototype results, not production or employment outcomes.
+
+Source and full technical article: https://github.com/bigneek78/data-platform-reliability-lab/tree/main/frontier-projects/03-gripsense
+
+#Engineering #SystemsEngineering #ProjectPhoenix
