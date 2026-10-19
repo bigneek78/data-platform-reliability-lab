@@ -1,5 +1,12 @@
 # Data Platform Reliability & Support Engineering Lab
 
+## Latest project — Phoenix Evidence Workbench
+
+[Read the public research overview](phoenix-evidence-workbench/) and [view the LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7517989661223329792/).
+
+This early research project uses synthetic device-support data and focuses on explanations for a human reviewer. The implementation, model and detailed technical materials remain private while ownership options and customer needs are evaluated.
+
+
 ## Project Phoenix — 20 separate frontier engineering projects
 
 [Explore the new twenty-project portfolio](frontier-projects/) for robotics, transportation, energy, healthcare operations, resilient communications, AI, release evidence, and space-systems scheduling.
